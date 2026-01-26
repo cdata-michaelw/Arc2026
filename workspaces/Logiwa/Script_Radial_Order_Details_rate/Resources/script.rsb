@@ -1,0 +1,32 @@
+<!-- NOTE: Do not edit arc:info -->
+<arc:info title="Custom Script" desc="This script will be executed when a file is processed.">
+  <input name="ConnectorId"   desc="The id of this connector." />
+  <input name="WorkspaceId"   desc="The workspace of this connector." />
+  <input name="MessageId"     desc="The message id." />
+  <input name="FilePath"      desc="The path of the file being processed." />
+  <input name="FileName"      desc="The name of the file being processed." />
+  <input name="Attachment#"   desc="The path of the attachment being processed." />
+  <input name="Header:*"      desc="The message headers of the file being processed." />
+  <output name="Data"         desc="The data that will be written to the file in the Receive folder." />
+  <output name="Encoding"     desc="The encoding that will be used to write the file in the Receive folder." />
+  <output name="FileName"     desc="The name of the output file in Receive folder." />
+  <output name="FilePath"     desc="The path of file that will be written to Receive folder." />
+  <output name="Header:*"     desc="The message headers of the file being written." />
+</arc:info>
+
+<arc:set attr="xml.uri" value="[FilePath]" />
+<arc:set attr="xml.map:ordercode" value="/Items\[1\]/Item/shipmentOrderCode" />
+<arc:set attr="xml.map:identifier" value="/Items\[1\]/Item/shipmentOrderIdentifier" />
+<arc:set attr="xml.map:shippingoption" value="/Items\[1\]/Item/shippingOption" />
+
+<!-- Calling the operation, passing in the json item and creating a "result" output item -->
+<arc:call op="xmlDOMGet" in="xml" out="result">
+  <!-- Setting the result from the mapped id parameter as a header on the message -->
+  <arc:set attr="output.header:ordercode" value="[result.ordercode]" />
+  <arc:set attr="output.header:identifier" value="[result.identifier]" />
+  <arc:set attr="output.header:shippingoption" value="[result.shippingoption]" />
+</arc:call>
+
+<arc:set attr="output.filename" value="[output.header:ordercode].xml" />
+<arc:set attr="output.filepath" value="[FilePath]" />
+<arc:push item="output" />

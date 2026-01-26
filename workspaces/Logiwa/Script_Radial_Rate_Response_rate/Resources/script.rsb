@@ -1,0 +1,34 @@
+<!-- NOTE: Do not edit arc:info -->
+<arc:info title="Custom Script" desc="This script will be executed when a file is processed.">
+  <input name="ConnectorId"   desc="The id of this connector." />
+  <input name="WorkspaceId"   desc="The workspace of this connector." />
+  <input name="MessageId"     desc="The message id." />
+  <input name="FilePath"      desc="The path of the file being processed." />
+  <input name="FileName"      desc="The name of the file being processed." />
+  <input name="Attachment#"   desc="The path of the attachment being processed." />
+  <input name="Header:*"      desc="The message headers of the file being processed." />
+  <output name="Data"         desc="The data that will be written to the file in the Receive folder." />
+  <output name="Encoding"     desc="The encoding that will be used to write the file in the Receive folder." />
+  <output name="FileName"     desc="The name of the output file in Receive folder." />
+  <output name="FilePath"     desc="The path of file that will be written to Receive folder." />
+  <output name="Header:*"     desc="The message headers of the file being written." />
+</arc:info>
+
+<arc:set attr="json.uri" value="[FilePath]" />
+<!-- Setting the json handle as an attribute on a new item that is passed into a second operation  -->
+<arc:set attr="json.map:carrierCode" value="/json/data/ratedShipments/\[1\]/carrierCode" />
+<arc:set attr="json.map:serviceType" value="/json/data/ratedShipments/\[1\]/serviceType" />
+<arc:set attr="json.map:rateerror1" value="/json/data/notifications/\[1\]/message" />
+<arc:set attr="json.map:rateerror" value="/json/data/notifications/\[2\]/message" />
+<arc:call op="jsonDOMGet" in="json" out="output2" >
+  <!-- Here is where you can execute additional script for the operation that is using the handle -->
+  <!-- This example logs the value of the foo setting from the json text to the application log, which is "bar" -->
+  <arc:set attr="output.header:carrierCode" value="[output2.carrierCode | def('')]" />
+  <arc:set attr="output.header:serviceType" value="[output2.serviceType | def('')]" />
+  <arc:set attr="output.header:rateerror" value="[output2.rateerror1 | concat('',[output2.rateerror | def('')])]" />
+</arc:call>
+
+<arc:set attr="output.data" value="[_message.header:labeldata]" />
+<arc:set attr="output.filepath" value="[filepath]" />
+<arc:set attr="output.filename" value="[_message.header:ordercode].xml" />
+<arc:push item="output" />
