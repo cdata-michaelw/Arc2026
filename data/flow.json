@@ -1,1 +1,5 @@
+<<<<<<< settings-before-git-init-0227
 {"version":2,"ports":[],"views":[],"apis":[],"notes":[],"snapshot":{"file":"file:\/\/flow.png"}}
+=======
+{"version":2,"ports":[{"connectorId":"TESTAutomation","connectorType":"REST","nodes":[{"style":"sender","posX":2007.56399835638,"posY":505.887628442064,"width":295}],"connections":[]}],"views":[],"apis":[],"notes":[],"snapshot":{"file":"file:\/\/flow.png"}}
+>>>>>>> local
