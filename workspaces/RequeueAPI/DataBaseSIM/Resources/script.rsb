@@ -1,0 +1,5 @@
+<arc:enum range="A..Z">
+  <arc:set attr="output.filename">[_value].txt</arc:set>
+  <arc:set attr="output.data">[_value]</arc:set>
+  <arc:push item="output" />
+</arc:enum>

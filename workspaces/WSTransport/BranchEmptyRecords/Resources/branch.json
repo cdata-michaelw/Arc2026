@@ -1,0 +1,1 @@
+{"left":{"xpath": "/Items/Data_Input/Customer_Reference","id":"allmatchingxpath"},"rules":[{"condition":{"ref":"allmatchingxpath", "formatters": [{ "name": "notequals", "arguments": [""]}]},"value":"is%20not%20empty&&1"}],"else":"Fallback to"}

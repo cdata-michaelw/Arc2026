@@ -1,0 +1,24 @@
+{
+  "OrderReport": {
+    "WebOrder": {
+      "CustomerName": "John Doe",
+      "PurchaseDate": "12/21/18",
+      "Line": [
+        {
+          "ItemName": "Hammer",
+          "ItemCost": "1500",
+          "ItemQuantity": "1",
+          "ItemDescription": "Standard claw hammer"
+        },
+        {
+          "ItemName": "Nail",
+          "ItemCost": "10",
+          "ItemQuantity": "20",
+          "ItemDescription": "Ten penny nails"
+        }
+      ],
+      "Subtotal": "1700",
+      "TaxPercent": "4"
+    }
+  }
+}

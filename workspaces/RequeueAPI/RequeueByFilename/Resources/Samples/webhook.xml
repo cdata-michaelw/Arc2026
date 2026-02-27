@@ -1,0 +1,21 @@
+<!-- Sample request -->
+<OrderReport>
+  <WebOrder>
+    <CustomerName>John Doe</CustomerName>
+    <PurchaseDate>12/21/18</PurchaseDate>
+    <Line>
+      <ItemName>Hammer</ItemName>
+      <ItemCost>1500</ItemCost>
+      <ItemQuantity>1</ItemQuantity>
+      <ItemDescription>Standard claw hammer</ItemDescription>
+    </Line>
+    <Line>
+      <ItemName>Nail</ItemName>
+      <ItemCost>10</ItemCost>
+      <ItemQuantity>20</ItemQuantity>
+      <ItemDescription>Ten penny nails</ItemDescription>
+    </Line>
+    <Subtotal>1700</Subtotal>
+    <TaxPercent>4</TaxPercent>
+  </WebOrder>
+</OrderReport>

@@ -1,0 +1,11 @@
+<arc:set attr="tmp.ResultFound" value="false" />
+<arc:set attr="_meta.odata:filter" value="Filename eq '[_message.header:api-queryparameter-filename]' and ConnectorId eq 'StepToRequeue' and Direction eq 'Send'" />
+<arc:call op="api.rsc/transactions" httpmethod="GET" authtoken="jamesb:4l7Q2r8l2Y0k6a6S8j1e" out="file">
+  <arc:call op="api.rsc/requeueMessage?ConnectorId=StepToRequeue&WorkspaceId=RequeueAPI&MessageID=[file.MessageID]" httpmethod="POST" authtoken="jamesb:4l7Q2r8l2Y0k6a6S8j1e"/>
+  <arc:set attr="tmp.ResultFound" value="true" />
+</arc:call>
+<arc:if exp="![tmp.ResultFound]">
+  <arc:throw code="x" desc="No file matching Filename [_message.header:api-queryparameter-filename] was found!" />
+</arc:if>
+<arc:set attr="output.data" value="Filename [_message.header:api-queryparameter-filename] requeued successfully" />
+<arc:push item="output" />

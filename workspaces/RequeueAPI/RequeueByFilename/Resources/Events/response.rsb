@@ -1,0 +1,23 @@
+<!-- NOTE: Do not edit arc:info -->
+<arc:info title="Response"       desc="This event will be executed when the Webhook Connector receives a request, which is available through the _request special item. A custom response may be provided through the _response special item.">
+  <input name="WorkspaceId"      desc="The workspace Id." />
+  <input name="ConnectorId"      desc="The connector Id." />
+  <input name="MessageId"        desc="The message id." />
+  <output name="Filename"        desc="The filename of the output message to pass down the flow." />
+  <output name="Data"            desc="The data to include in the message that is passed down the flow. Note that for binary data, the Base64Data attribute should be used instead." />
+  <output name="Base64Data"      desc="The base64 encoded data to include in the message that is passed down the flow." />
+  <output name="HeaderNames#"    desc="A list of header names to include on the message that is passed down the flow. The HeaderValues attribute should be used to specify values for these headers at the matching index." />
+  <output name="HeaderValues#"   desc="A list of header values to include on the message that is passed down the flow. These values will be used for the header names defined at the matching index within the HeaderNames list." />
+  <output name="Logs#"           desc="A list of log entries to include in the logs for the transaction." />
+</arc:info>
+
+<arc:set attr="tmp.ResultFound" value="false" />
+<arc:set attr="_meta.odata:filter" value="Filename eq '[_httpHeaders.CustomHeader]' and ConnectorId eq 'StepToRequeue' and Direction eq 'Send'" />
+<arc:call op="api.rsc/transactions" httpmethod="GET" authtoken="michaelw:7g0P6k5z0M7q3z7B5b8q" out="file">
+  <arc:call op="api.rsc/requeueMessage?ConnectorId=StepToRequeue&WorkspaceId=RequeueAPI&MessageID=[file.MessageID]" httpmethod="POST" authtoken="michaelw:7g0P6k5z0M7q3z7B5b8q"/>
+  <arc:set attr="tmp.ResultFound" value="true" />
+</arc:call>
+<arc:if exp="![tmp.ResultFound]">
+  <arc:throw code="x" desc="No file matching Filename [_httpHeaders.CustomHeader] was found!" />
+</arc:if>
+<arc:set attr="_response.write" value="Filename [_httpHeaders.CustomHeader] requeued successfully" />
