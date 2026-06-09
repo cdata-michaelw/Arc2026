@@ -1,0 +1,36 @@
+<!-- Valid authtoken for Admin API calls-->
+<arc:set attr="report.token" value="michaelw:9z5R1a7g9A5w8w2N6f8j"/>
+<!-- Date for when all transactions should be gathered-->
+<arc:set attr="report.date" value="[now('yyyy-MM-dd')]"/>
+<!-- Empty 'in' attribute to allow global scope for connectors -->
+<arc:set attr="in.in" value=""/>
+<!-- CSV column headers-->
+<arc:set attr="output.data" value="Connector ID,Total Transaction Count, Successful Transaction Count, Error Transaction Count"/>
+
+<!-- Using list of connectors reported by api.rsc/connectors to generate each row in CSV -->
+<arc:call op="api.rsc/connectors" httpmethod="get" authtoken="[report.token]" out="connector" in="in">
+  <!-- Initialize count of total, successful, and error transactions -->
+  <arc:set attr="connector.totalTransactionsCount" value="0"/>
+  <arc:set attr="connector.totalSuccessfulTransactionsCount" value="0"/>
+  <arc:set attr="connector.totalErrorTransactionsCount" value="0"/>
+  <!-- Get transactions -->
+  <arc:call op="api.rsc/transactions" httpmethod="get" authtoken="[report.token]" out="transaction">
+    <!-- Get only transactions on or after configured report.date day -->
+    <arc:if exp="[transaction.timestamp | datediff(day, [report.date]) | greaterThan(-1)]">
+      <!-- Get only transactions for this particular connector -->
+      <arc:if exp="[transaction.connectorID | equals([connector.connectorID])]">
+        <arc:if exp="[transaction.status | equals('Success')]">
+          <arc:set attr="connector.totalSuccessfulTransactionsCount" value="[connector.totalSuccessfulTransactionsCount | add()]"/>
+        </arc:if>
+        <arc:if exp="[transaction.status | equals('Error')]">
+          <arc:set attr="connector.totalErrorTransactionsCount" value="[connector.totalErrorTransactionsCount | add()]"/>
+        </arc:if>
+        <arc:set attr="connector.totalTransactionsCount" value="[connector.totalTransactionsCount | add()]"/>
+      </arc:if>
+    </arc:if>
+  </arc:call>
+  <arc:set attr="output.data" value="[output.data]\n[connector.connectorid],[connector.totalTransactionsCount],[connector.totalSuccessfulTransactionsCount],[connector.totalErrorTransactionsCount]"/>
+</arc:call>
+
+<arc:set attr="output.filename" value="GeneratedReport.csv"/>
+<arc:push item="output"/>

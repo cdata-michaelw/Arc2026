@@ -1,0 +1,30 @@
+Cache-Control: private
+Content-Length: 627
+Content-Type: multipart/report; report-type=disposition-notification; boundary="MDNBoundary"
+Server: Microsoft-HTTPAPI/2.0
+AS2-From: Arc2025
+X-Frame-Options: SAMEORIGIN
+AS2-To: Arc2026
+AS2-Version: 1.2
+EDIINT-Features: CEM, multiple-attachments
+Subject: Message Disposition Notification
+Content-Description: MIME Message
+Message-ID: <01f24d93-99ee-4a0a-b43c-fa8a0364d3d9@Arc2026>
+Set-Cookie: ASP.NET_SessionId=il4y10vpmbftnnkdpi0k4p2o; path=/; HttpOnly; SameSite=Lax
+Date: Mon, 01 Jun 2026 18:47:54 GMT
+Connection: close
+
+
+--MDNBoundary
+Content-Type: text/plain
+
+The incoming request did not match a configured trading partner profile. [AS2-From: Arc2026] [AS2-To: Arc2025 (primary profile: Arc2026)]. Please check to make sure that the AS2 identifiers that have been exchanged are correct. AS2 identifiers are case-sensitive.
+--MDNBoundary
+Content-Type: message/disposition-notification
+
+Original-Recipient: rfc822;Arc2025
+Final-Recipient: rfc822;Arc2025
+Original-Message-ID: <TEST-AS2-20260601-144754565-FCDK@Arc2026_Arc2025>
+Disposition: failed/Failure: message-deemed-invalid-due-to-unknown-from-and.or-to-parties
+
+--MDNBoundary--
