@@ -1,0 +1,122 @@
+<Interchange Delimiters=":*.  ~"
+             xmlns="http://www.rssbus.com"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<TransactionSet Type="TransactionSet">
+
+		<ST Type="Segment">
+			<ST01></ST01>
+			<ST02></ST02>
+		</ST>
+
+		<BSN Type="Segment">
+			<BSN01></BSN01>
+			<BSN02></BSN02>
+			<BSN03></BSN03>
+			<BSN04></BSN04>
+			<BSN05></BSN05>
+		</BSN>
+		
+		<HLLoop1 Type="Loop">
+
+			<HL Type="Segment">
+				<HL01></HL01>
+				<HL02></HL02>
+				<HL03></HL03>
+			</HL>
+
+			<LIN Type="Segment">
+				<LIN01></LIN01>
+				<LIN02></LIN02>
+				<LIN03></LIN03>
+			</LIN>
+
+			<SN1 Type="Segment">
+				<SN101></SN101>
+				<SN102></SN102>
+				<SN103></SN103>
+				<SN104></SN104>
+				<SN105></SN105>
+				<SN106></SN106>
+				<SN107></SN107>
+				<SN108></SN108>
+			</SN1>
+			
+			<PRF Type="Segment">
+				<PRF01></PRF01>
+			</PRF>
+			
+			<PO4 Type="Segment">
+				<PO401></PO401>
+			</PO4>
+			
+			<PID Type="Segment">
+				<PID01></PID01>
+				<PID02></PID02>
+				<PID03></PID03>
+				<PID04></PID04>
+				<PID05></PID05>
+			</PID>
+			
+			<TD5 Type="Segment">
+				<TD501></TD501>
+				<TD502></TD502>
+				<TD503></TD503>
+				<TD504></TD504>
+				<TD505></TD505>
+			</TD5>
+
+			<MAN Type="Segment">
+				<MAN01></MAN01>
+				<MAN02></MAN02>
+				<MAN03></MAN03>
+				<MAN04></MAN04>
+				<MAN05></MAN05>
+			</MAN>
+			
+			<DTM Type="Segment">
+				<DTM01></DTM01>
+				<DTM02></DTM02>
+			</DTM>
+
+			<N1Loop1 Type="Loop">
+			
+				<N1 Type="Segment">
+					<N101></N101>
+					<N102></N102>
+					<N103></N103>
+					<N104></N104>
+				</N1>
+				
+				<N3 Type="Segment">
+					<N301></N301>
+					<N302></N302>
+				</N3>
+				
+				<N4 Type="Segment">
+					<N401></N401>
+					<N402></N402>
+					<N403></N403>
+					<N404></N404>
+				</N4>
+				
+			</N1Loop1>
+
+		</HLLoop1>
+
+		<CTTLoop1 type="Loop">
+		
+			<CTT type="Segment">
+				<CTT01></CTT01>
+			</CTT>
+			
+		</CTTLoop1>
+
+		<SE Type="Segment">
+			<SE01></SE01>
+			<SE02></SE02>
+		</SE>
+
+	</TransactionSet>
+	
+</Interchange>

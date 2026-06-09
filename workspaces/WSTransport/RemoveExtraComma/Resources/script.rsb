@@ -1,0 +1,12 @@
+<arc:set attr="input.file" value="[FilePath]" />
+<arc:set attr="restof.data" value="" />
+<arc:call op="fileReadLine" in="input" out="result" >
+  <arc:if exp="[result.file:line] == 1">
+    <arc:set attr="first.line" value="[result.file:data | regexMatch('ArcESB','^(.*),\s*$')]" />
+    <arc:else>
+      <arc:set attr="output.data" value="[first.line][restof.data]\n[result.file:data]" />
+    </arc:else>
+  </arc:if> 
+</arc:call>
+<arc:set attr="output.filepath" value="[FilePath]" />
+<arc:push item="output" />

@@ -1,0 +1,36 @@
+<Items>
+	<Shipments>
+		<ShipmentID>SHIP001</ShipmentID>
+		<ShipDate>20260609</ShipDate>
+		<Orders>
+			<OrderID>PO-78432</OrderID>
+			<Items>
+				<ItemUPC>012345678901</ItemUPC>
+				<Qty>24</Qty>
+				<Description>Red Oak Base Molding 3.5in x 8ft</Description>
+				<Packs>
+					<SSCCBarcode>00100012345678901</SSCCBarcode>
+				</Packs>
+			</Items>
+			<Items>
+				<ItemUPC>098765432109</ItemUPC>
+				<Qty>12</Qty>
+				<Description>White PVC Casing 2.25in x 7ft</Description>
+				<Packs>
+					<SSCCBarcode>00100098765432109</SSCCBarcode>
+				</Packs>
+			</Items>
+		</Orders>
+		<Orders>
+			<OrderID>PO-78433</OrderID>
+			<Items>
+				<ItemUPC>011122334455</ItemUPC>
+				<Qty>36</Qty>
+				<Description>Colonial Base 3.5in x 12ft</Description>
+				<Packs>
+					<SSCCBarcode>00100011122334455</SSCCBarcode>
+				</Packs>
+			</Items>
+		</Orders>
+	</Shipments>
+</Items>
