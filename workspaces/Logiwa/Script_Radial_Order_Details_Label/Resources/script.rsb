@@ -1,0 +1,71 @@
+<!-- NOTE: Do not edit arc:info -->
+<arc:info title="Custom Script" desc="This script will be executed when a file is processed.">
+  <input name="ConnectorId"   desc="The id of this connector." />
+  <input name="WorkspaceId"   desc="The workspace of this connector." />
+  <input name="MessageId"     desc="The message id." />
+  <input name="FilePath"      desc="The path of the file being processed." />
+  <input name="FileName"      desc="The name of the file being processed." />
+  <input name="Attachment#"   desc="The path of the attachment being processed." />
+  <input name="Header:*"      desc="The message headers of the file being processed." />
+  <output name="Data"         desc="The data that will be written to the file in the Receive folder." />
+  <output name="Encoding"     desc="The encoding that will be used to write the file in the Receive folder." />
+  <output name="FileName"     desc="The name of the output file in Receive folder." />
+  <output name="FilePath"     desc="The path of file that will be written to Receive folder." />
+  <output name="Header:*"     desc="The message headers of the file being written." />
+</arc:info>
+
+<arc:set attr="xml.uri" value="[FilePath]" />
+<arc:set attr="xml.map:ordercode" value="/Items\[1\]/Item/shipmentOrderCode" />
+<arc:set attr="xml.map:identifier" value="/Items\[1\]/Item/shipmentOrderIdentifier" />
+<arc:set attr="xml.map:carrier" value="/Items\[1\]/Item/carrier" />
+<arc:set attr="xml.map:shippingoption" value="/Items\[1\]/Item/shippingOption" />
+<arc:set attr="xml.map:package" value="/Items\[1\]/Item/requestedPackageLineItems\[1\]/package" />
+<arc:set attr="xml.map:packageSequenceNumber" value="/Items\[1\]/Item/requestedPackageLineItems\[1\]/packageSequenceNumber" />
+
+<!-- Calling the operation, passing in the json item and creating a "result" output item -->
+<arc:call op="xmlDOMGet" in="xml" out="result">
+  <!-- Setting the result from the mapped id parameter as a header on the message -->
+  <arc:set attr="output.header:ordercode" value="[result.ordercode]" />
+  <arc:set attr="output.header:identifier" value="[result.identifier]" />
+  <arc:set attr="output.header:shippingoption" value="[result.shippingoption]" />
+  <arc:set attr="output.header:package" value="[result.package]" />
+  <arc:set attr="output.header:carrier" value="[result.carrier]" />
+  <arc:set attr="output.header:packageSequenceNumber" value="[result.packageSequenceNumber]" />
+</arc:call>
+
+<arc:set attr="xml.xpath" value="/" />
+<arc:call op="xmlDOMSearch" in="xml">
+  <arc:set attr="output.header:labeldata" value="[xsubtree(.)]" />
+</arc:call>
+
+<arc:if attr="output.header:carrier" value="RFIL Rateshop" operator="notequals">
+  <arc:set attr="output.header:carrierCode" value="[output.header:carrier]" />
+  <arc:set attr="output.header:serviceType" value="[output.header:shippingoption]" />
+</arc:if>
+
+<!--arc:set attr="http.URL" value="[Vault(radial_env_url)]/v3.1/ShipmentOrder/list/i/0/s/1?Identifier.eq=[output.header:identifier]" />
+<arc:set attr="http.method" value="GET" />
+<arc:set attr="http.contenttype" value="application/json" />
+<arc:set attr="http.header:name#1" value="Authorization" />
+<arc:set attr="http.header:value#1" value="Bearer [Vault(radial_token)]" />
+<arc:call op="httpGet" in="http" out="response">
+
+<arc:set attr="json.text" value="[response.http:content]" />
+<arc:call op="jsonOpen" in="json" out="output" >
+<arc:set attr="json2.handle" value="[output.handle]" />
+<arc:set attr="json2.map:currency" value="/json/data/\[1\]/currencyCode" />
+
+<arc:call op="jsonDOMGet" in="json2" out="result">
+  <arc:set attr="temp.currency" value="[result.currency | def('USD')]" />
+</arc:call>
+  <arc:finally>
+    <arc:call op="jsonClose" in="json2" />
+  </arc:finally>
+</arc:call>
+</arc:call>
+
+<arc:set attr="output.header:currency" value="[temp.currency]" /-->
+
+<arc:set attr="output.filename" value="[output.header:ordercode].xml" />
+<arc:set attr="output.filepath" value="[FilePath]" />
+<arc:push item="output" />
