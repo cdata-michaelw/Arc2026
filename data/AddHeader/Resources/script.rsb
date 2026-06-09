@@ -1,0 +1,3 @@
+<arc:set attr="_message.header:OtherHeader" value="OTHERVAL"/>
+<arc:set attr="output.filepath" value="[filepath]"/>
+<arc:push item="output"/>
