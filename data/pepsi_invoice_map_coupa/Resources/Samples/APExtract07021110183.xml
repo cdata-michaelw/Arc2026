@@ -1,0 +1,15 @@
+<Items>
+	<row>
+		<invoice_nbr>INV12345</invoice_nbr>
+		<invoice_date>06/18/2025</invoice_date>
+		<invoice_type>D</invoice_type>
+		<vendor_id>105316-001</vendor_id>
+		<vendor_name>RXINV McKesson (Dropship)</vendor_name>
+		<amount>9116.9531325</amount>
+		<pharmacy_cost_center>22300</pharmacy_cost_center>
+		<tax>0</tax>
+		<addtional_fees>10</addtional_fees>
+		<po_number>EA1043</po_number>
+		<extract_date>6/18/2025</extract_date>
+	</row>
+</Items>

@@ -1,0 +1,50 @@
+<invoice-header>
+	<invoice-number>GENINV-0011420</invoice-number>
+	<invoice-date>2025-06-30</invoice-date>
+	<document-type>Invoice</document-type>
+	<requested-by>
+		<login>jobadm</login>
+	</requested-by>
+	<supplier>
+		<number>U1001278-001</number>
+	</supplier>
+	<currency>
+		<code>USD</code>
+	</currency>
+	<ship-to-address>
+		<location-code>CPO</location-code>
+	</ship-to-address>
+	<invoice-lines>
+		<invoice-line>
+			<need-by-date>07/01/2025</need-by-date>
+			<description>OCIP</description>
+			<line-num>1</line-num>
+			<price>54142.46</price>
+			<quantity>1</quantity>
+			<source-part-num>FROM 06012025 TO 06302025</source-part-num>
+			<uom>
+				<code>EA</code>
+			</uom>
+			<account-allocations type="array">
+				<account-allocation>
+					<amount>54142.46</amount>
+					<pct>100.0</pct>
+					<account>
+						<code>01MEM-11111-00000-00501</code>
+						<account-type>
+							<name>Chart of Accounts</name>
+						</account-type>
+					</account>
+				</account-allocation>
+			</account-allocations>
+			<currency>
+				<code>USD</code>
+			</currency>
+			<commodity>
+				<name>External PO Service</name>
+			</commodity>
+			<service>Yes</service>
+			<type>InvoiceQuantityLine</type>
+		</invoice-line>
+	</invoice-lines>
+</invoice-header>
