@@ -1,0 +1,12 @@
+<Items>
+  <Parent>
+    <Child>1.000</Child>
+  </Parent>
+  <Parent>
+    <Child>2.000</Child>
+  </Parent>
+  <Parent>
+    <Child>3.000</Child>
+  </Parent>
+  <Sibling>ABC</Sibling>
+</Items>

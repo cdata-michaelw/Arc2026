@@ -1,0 +1,1 @@
+{"left":{ "xpath": "/Items/Item/carrier","id":"thefirstmatchingxpath"},"rules":[{"condition":{"ref":"thefirstmatchingxpath", "formatters": [{ "name": "equals", "arguments": ["RFIL Rateshop"]}]},"value":"is%20equal%20to&%20%5BRFIL%20Rateshop%5D&1"}],"else":"Fallback to"}
