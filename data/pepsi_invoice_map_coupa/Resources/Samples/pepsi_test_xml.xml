@@ -1,0 +1,266 @@
+<Interchange Delimiters=":*.  ~" xmlns="http://www.rssbus.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Meta>
+		<!--Authorization Information Qualifier-->
+		<ISA01>
+			<!--No Authorization Information Present (No Meaningful Information in I02)-->00</ISA01>
+		<!--Authorization Information-->
+		<ISA02>          </ISA02>
+		<!--Security Information Qualifer-->
+		<ISA03>00</ISA03>
+		<!--Security Information-->
+		<ISA04>          </ISA04>
+		<!--Interchange ID Qualifier-->
+		<ISA05>
+			<!--Duns (Dun &amp; Bradstreet)-->01</ISA05>
+		<!--Interchange Sender ID-->
+		<ISA06>089728869      </ISA06>
+		<!--Interchange ID Qualifier-->
+		<ISA07>
+			<!--Mutually Defined-->ZZ</ISA07>
+		<!--Interchange Receiver ID-->
+		<ISA08>MSKCC          </ISA08>
+		<!--Interchange Date-->
+		<ISA09>260508</ISA09>
+		<!--Interchange Time-->
+		<ISA10>0916</ISA10>
+		<!--Interchange Control Standards Identifier-->
+		<ISA11>U</ISA11>
+		<!--Interchange Control Version Number Code-->
+		<ISA12>
+			<!--Standards Approved for Publication by ASC X12 Procedures Review Board through October 1997-->00401</ISA12>
+		<!--Inter Control Number-->
+		<ISA13>000000001</ISA13>
+		<!--Acknowlegment Requested Code-->
+		<ISA14>0</ISA14>
+		<!--Interchange Usage Indicator Code-->
+		<ISA15>
+			<!--Production Data-->P</ISA15>
+		<!--Component Element Separator-->
+		<ISA16>&gt;</ISA16>
+	</Meta>
+	<FunctionalGroup>
+		<Meta>
+			<!--Functional Identifier Code-->
+			<GS01>
+				<!--Invoice Information (810)-->IN</GS01>
+			<!--Application Sender&apos;s Code-->
+			<GS02>089728869</GS02>
+			<!--Application Receiver&apos;s Code-->
+			<GS03>MSKCC</GS03>
+			<!--Date-->
+			<GS04>20260508</GS04>
+			<!--Time-->
+			<GS05>091608</GS05>
+			<!--Group Control Number-->
+			<GS06>1</GS06>
+			<!--Responsible Agency Code-->
+			<GS07>
+				<!--Accredited Standards Committee X12-->X</GS07>
+			<!--Version / Release / Industry Identifier Code-->
+			<GS08>
+				<!--Standards Approved for Publication by ASC X12 Procedures Review Board through October 1997-->004010</GS08>
+		</Meta>
+		<TransactionSet>
+			<TX-00401-810 type="TransactionSet">
+				<Meta>
+					<!--Transaction Set Identifier Code-->
+					<ST01>
+						<!--Invoice-->810</ST01>
+					<!--Transaction Set Control Number-->
+					<ST02>0001</ST02>
+				</Meta>
+				<!--Beginning Segment for Invoice-->
+				<BIG type="Segment">
+					<!--Date-->
+					<BIG01>20260430</BIG01>
+					<!--Invoice Number-->
+					<BIG02>2660883673</BIG02>
+					<!--Date-->
+					<BIG03>20260430</BIG03>
+					<!--Purchase Order Number-->
+					<BIG04 xsi:nil="true"/>
+					<!--Release Number-->
+					<BIG05 xsi:nil="true"/>
+					<!--Change Order Sequence Number-->
+					<BIG06 xsi:nil="true"/>
+					<!--Transaction Type Code-->
+					<BIG07>
+						<!--Debit Invoice-->DI</BIG07>
+				</BIG>
+				<N1Loop1 type="Loop">
+					<!--Name-->
+					<N1 type="Segment">
+						<!--Entity Identifier Code-->
+						<N101>
+							<!--Ship To-->ST</N101>
+						<!--Name-->
+						<N102>H SLOAN KETTERING</N102>
+						<!--Identification Code Qualifier-->
+						<N103>
+							<!--Assigned by Buyer or Buyer&apos;s Agent-->92</N103>
+						<!--Identification Code-->
+						<N104>000000</N104>
+					</N1>
+					<!--Address Information-->
+					<N3 type="Segment">
+						<!--Address Information-->
+						<N301>1275 YORK AVENUE</N301>
+					</N3>
+					<!--Geographic Location-->
+					<N4 type="Segment">
+						<!--City Name-->
+						<N401>NEW YORK</N401>
+						<!--State or Province Code-->
+						<N402>NY</N402>
+						<!--Postal Code-->
+						<N403>10065-0000</N403>
+					</N4>
+				</N1Loop1>
+				<N1Loop1 type="Loop">
+					<!--Name-->
+					<N1 type="Segment">
+						<!--Entity Identifier Code-->
+						<N101>
+							<!--Ship From-->SF</N101>
+						<!--Name-->
+						<N102>Pepsi Cola NY</N102>
+						<!--Identification Code Qualifier-->
+						<N103>
+							<!--Assigned by Buyer or Buyer&apos;s Agent-->92</N103>
+					</N1>
+					<!--Address Information-->
+					<N3 type="Segment">
+						<!--Address Information-->
+						<N301>11702 15th Ave</N301>
+					</N3>
+					<!--Geographic Location-->
+					<N4 type="Segment">
+						<!--City Name-->
+						<N401>COLLEGE POINT</N401>
+						<!--State or Province Code-->
+						<N402>NY</N402>
+						<!--Postal Code-->
+						<N403>11356-0000</N403>
+					</N4>
+				</N1Loop1>
+				<!--Terms of Sale/Deferred Terms of Sale-->
+				<ITD type="Segment">
+					<!--Terms Type Code-->
+					<ITD01/>
+					<!--Terms Basis Date Code-->
+					<ITD02/>
+					<!--Terms Discount Percent-->
+					<ITD03 xsi:nil="true"/>
+					<!--Terms Discount Due Date-->
+					<ITD04 xsi:nil="true"/>
+					<!--Terms Discount Days Due-->
+					<ITD05 xsi:nil="true"/>
+					<!--Terms Net Due Date-->
+					<ITD06>20260629</ITD06>
+					<!--Terms Net Days-->
+					<ITD07>0</ITD07>
+					<!--Terms Discount Amount-->
+					<ITD08 xsi:nil="true"/>
+					<!--Terms Deferred Due Date-->
+					<ITD09 xsi:nil="true"/>
+					<!--Deferred Amount Due-->
+					<ITD10 xsi:nil="true"/>
+					<!--Percent of Invoice Payable-->
+					<ITD11 xsi:nil="true"/>
+					<!--Description-->
+					<ITD12>NET 60</ITD12>
+				</ITD>
+				<IT1Loop1 type="Loop">
+					<!--Baseline Item Data (Invoice)-->
+					<IT1 type="Segment">
+						<!--Assigned Identification-->
+						<IT101>059297</IT101>
+						<!--Quantity Invoiced-->
+						<IT102>15</IT102>
+						<!--Unit or Basis for Measurement Code-->
+						<IT103>
+							<!--Hundred Pounds (CWT)-->CW</IT103>
+						<!--Unit Price-->
+						<IT104>11.000</IT104>
+						<!--Basis of Unit Price Code-->
+						<IT105/>
+						<!--Product/Service ID Qualifier-->
+						<IT106>
+							<!--GTIN-12-->UP</IT106>
+						<!--Product/Service ID-->
+						<IT107>78000002133</IT107>
+					</IT1>
+					<!--Tax Information-->
+					<TXI type="Segment">
+						<!--Tax Type Code-->
+						<TXI01>
+							<!--Goods and Services Tax-->GS</TXI01>
+						<!--Monetary Amount-->
+						<TXI02>0</TXI02>
+					</TXI>
+					<PIDLoop1 type="Loop">
+						<!--Product/Item Description-->
+						<PID type="Segment">
+							<!--Item Description Type-->
+							<PID01>F</PID01>
+							<!--Product/Process Characteristic Code-->
+							<PID02/>
+							<!--Agency Qualifier Code-->
+							<PID03/>
+							<!--Product Description Code-->
+							<PID04 xsi:nil="true"/>
+							<!--Description-->
+							<PID05>7.5OZ 6PK CN SCH GINGER ALE</PID05>
+						</PID>
+					</PIDLoop1>
+				</IT1Loop1>
+				<!--Total Monetary Value Summary-->
+				<TDS type="Segment">
+					<!--Amount-->
+					<TDS01>82838</TDS01>
+				</TDS>
+				<SACLoop2 type="Loop">
+					<!--Service, Promotion, Allowance, or Charge Information-->
+					<SAC type="Segment">
+						<!--Allowance or Charge Indicator-->
+						<SAC01>C</SAC01>
+						<!--Service, Promotion, Allowance, or Charge Code-->
+						<SAC02>
+							<!--Discount - Special-->C300</SAC02>
+						<!--Agency Qualifier Code-->
+						<SAC03/>
+						<!--Agency Service, Promotion, Allowance, or Charge Code-->
+						<SAC04 xsi:nil="true"/>
+						<!--Amount-->
+						<SAC05>5580</SAC05>
+						<!--Allowance/Charge Percent Qualifier-->
+						<SAC06/>
+						<!--Percent-->
+						<SAC07 xsi:nil="true"/>
+						<!--Rate-->
+						<SAC08 xsi:nil="true"/>
+						<!--Unit or Basis for Measurement Code-->
+						<SAC09/>
+						<!--Quantity-->
+						<SAC10 xsi:nil="true"/>
+						<!--Quantity-->
+						<SAC11 xsi:nil="true"/>
+						<!--Allowance or Charge Method of Handling Code-->
+						<SAC12/>
+						<!--Reference Identification-->
+						<SAC13 xsi:nil="true"/>
+						<!--Option Number-->
+						<SAC14 xsi:nil="true"/>
+						<!--Description-->
+						<SAC15>TOTAL DEPOSIT</SAC15>
+					</SAC>
+				</SACLoop2>
+				<!--Transaction Totals-->
+				<CTT type="Segment">
+					<!--Number of Line Items-->
+					<CTT01>16</CTT01>
+				</CTT>
+			</TX-00401-810>
+		</TransactionSet>
+	</FunctionalGroup>
+</Interchange>
