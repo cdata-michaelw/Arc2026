@@ -1,0 +1,34 @@
+<Items>
+    <Request>
+      <row>
+          <Customer_Id>1981bfda-fece-49d3-90bd-734a990786e1</Customer_Id>
+          <Subscription_Id>AzZj15TTD6Y0DXT3</Subscription_Id>
+          <Billing_Address_First_Name>VJ</Billing_Address_First_Name>
+          <Billing_Address_Last_Name>Vries</Billing_Address_Last_Name>
+          <Billing_Address_Company></Billing_Address_Company>
+          <Vat_Number></Vat_Number>
+          <Billing_Address_Email>bente@imove.no</Billing_Address_Email>
+          <Billing_Address_Phone>3193489645</Billing_Address_Phone>
+          <Billing_Address_Line1>Lars Hilles gate 30</Billing_Address_Line1>
+          <Billing_Address_Line2></Billing_Address_Line2>
+          <Billing_Address_Line3></Billing_Address_Line3>
+          <Billing_Address_City>amsterdam</Billing_Address_City>
+          <Billing_Address_State></Billing_Address_State>
+          <Billing_Address_Zip>1065VL</Billing_Address_Zip>
+          <Billing_Address_Country>NL</Billing_Address_Country>
+          <PO_Number></PO_Number>
+          <Invoice_Number>2776</Invoice_Number>
+          <Invoice_Date>2025-10-19</Invoice_Date>
+          <Status>payment_due</Status>
+          <Dunning_Status>in_progress</Dunning_Status>
+          <Due_Date>2025-10-19</Due_Date>
+          <Amount>1299</Amount>
+          <Amount_Due>1299</Amount_Due>
+          <Adjustments>0</Adjustments>
+          <Credits_Applied>0</Credits_Applied>
+          <Payments></Payments>
+          <Write_Off_Amount>0</Write_Off_Amount>
+          <Licence_plate_number>RUDY891</Licence_plate_number> 
+        </row>	
+    </Request>
+</Items>
