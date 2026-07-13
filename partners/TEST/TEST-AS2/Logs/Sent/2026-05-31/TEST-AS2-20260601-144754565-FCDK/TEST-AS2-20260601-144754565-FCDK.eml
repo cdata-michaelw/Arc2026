@@ -1,0 +1,22 @@
+Message-Id: TEST-AS2-20260601-144754565-FCDK
+Filename: ValueMapExample.xml
+X-Powered-By: Arc
+Processed: by TEST:TEST-AS2; Failed; 2026-06-01T14:47:54.873-04:00
+Processed-Status-Description: The receipt was unsigned, and a signed receipt was expected.
+Processed: by TEST:TEST-AS2; Failed; 2026-06-01T15:47:55.590-04:00
+Processed-Status-Description: The receipt was unsigned, and a signed receipt was expected.
+Processed: by TEST:TEST-AS2; Failed; 2026-06-01T16:47:55.741-04:00
+Processed-Status-Description: The receipt was unsigned, and a signed receipt was expected.
+Processed: by TEST:TEST-AS2; Failed; 2026-06-01T17:47:56.040-04:00
+Processed-Status-Description: The receipt was unsigned, and a signed receipt was expected.
+Processed: by TEST:TEST-AS2; Failed; 2026-06-01T20:24:14.670-04:00
+Processed-Status-Description: The receipt was unsigned, and a signed receipt was expected.
+
+<Items>
+  <Parent>
+    <Child1>1.000</Child1>
+    <Child2>2.000</Child2>
+    <Child3>3.000</Child3>
+    <Child4>0.000</Child4>
+  </Parent>
+</Items>

@@ -1,0 +1,52 @@
+<Items xmlns:json="http://arc.cdata.com/ns/jsonconnector" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<request json:array="true">
+		<customer>
+			<address>Maritsa 34</address>
+			<bank_account_number>NL34ABNA0137254172</bank_account_number>
+			<city>AMSTELVEEN</city>
+			<coc_number>94947236</coc_number>
+			<contact_person_email>info@medisec.eu</contact_person_email>
+			<contact_person_name>Danielle</contact_person_name>
+			<contact_person_phone>06-37614297</contact_person_phone>
+			<country_code>NL</country_code>
+			<current_days_past_due></current_days_past_due>
+			<current_outstanding_eur json:type="number">0</current_outstanding_eur>
+			<entity_id json:type="number">1257</entity_id>
+			<general_email>info@medisec.eu</general_email>
+			<general_phone_number>06-37614297</general_phone_number>
+			<human_customer_segment>Kleinbedrijf</human_customer_segment>
+			<human_kind>besloten vennootschap met beperkte aansprakelijkheid</human_kind>
+			<human_sales_region>Noord-West</human_sales_region>
+			<human_sales_team>Road Transport</human_sales_team>
+			<invoice_email>administratie@medisec.eu</invoice_email>
+			<is_currently_stage_3 json:type="boolean">false</is_currently_stage_3>
+			<locale>nl</locale>
+			<mail2pay_workflow>dissolved_default</mail2pay_workflow>
+			<mandate_reference>BEEQUB2B19528</mandate_reference>
+			<monthly_collection_limit_eur json:type="number">400</monthly_collection_limit_eur>
+			<name>Medisec B.V.</name>
+			<one_obligor_days_since_last_invoice_past_due></one_obligor_days_since_last_invoice_past_due>
+			<one_obligor_outstanding_debtor_category>Worker</one_obligor_outstanding_debtor_category>
+			<one_obligor_payment_score json:type="number">1</one_obligor_payment_score>
+			<organization_id json:type="number">385494</organization_id>
+			<postal_code>1186LE</postal_code>
+			<reference>BQ342474</reference>
+			<token>VSfRExLBKWKD7GUhiiXYWYz5</token>
+			<twikey_sign_url>https://beequipbv.twikey.com/short/A7Wg</twikey_sign_url>
+		</customer>
+		<invoices json:array="true">
+			<amount>2500.00</amount>
+			<beequip_accounting_event_type></beequip_accounting_event_type>
+			<beequip_transaction_type></beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF619712</document_number>
+			<failed_collection_reason></failed_collection_reason>
+			<memo>Ontbindingsboete</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>2500.00</remaining_amount>
+			<transaction_due_on>2025-09-05</transaction_due_on>
+			<transaction_on>2025-09-05</transaction_on>
+		</invoices>
+		<objects></objects>
+	</request>
+</Items>
