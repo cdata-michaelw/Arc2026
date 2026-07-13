@@ -1,0 +1,8 @@
+<arc:set attr="file.file" value="[FilePath]" />
+<arc:call op="fileReadLine" in="file" out="line" >
+  <arc:if exp="[line.file:data | startswith('BEG')]">
+    <arc:set attr="_message.header:X12REFHeader" value="[line.file:data | split('*', 2)]" />
+  </arc:if> 
+</arc:call>
+<arc:set attr="output.filepath" value="[FilePath]" />
+<arc:push item="output" />

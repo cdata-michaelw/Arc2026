@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items
+	xmlns:json="http://arc.cdata.com/ns/jsonconnector"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<request json:array="true">
+		<customer>
+			<address> 8 A 14</address>
+			<bank_account_number></bank_account_number>
+			<city></city>
+			<coc_number></coc_number>
+			<contact_person_email></contact_person_email>
+			<contact_person_name></contact_person_name>
+			<contact_person_phone>06-</contact_person_phone>
+			<country_code>NL</country_code>
+			<current_days_past_due json:type="number">931</current_days_past_due>
+			<current_outstanding_eur>0.00</current_outstanding_eur>
+			<entity_id json:type="number">685</entity_id>
+			<general_email>.nl</general_email>
+			<human_customer_segment></human_customer_segment>
+			<human_kind>beslo met beperkte </human_kind>
+			<human_sales_region></human_sales_region>
+			<human_sales_team>Road </human_sales_team>
+			<invoice_email>@.nl</invoice_email>
+			<is_currently_stage_3 json:type="boolean">true</is_currently_stage_3>
+			<locale>nl</locale>
+			<mail2pay_workflow></mail2pay_workflow>
+			<mandate_reference></mandate_reference>
+			<name>  B.V.</name>
+			<one_obligor_outstanding_debtor_category></one_obligor_outstanding_debtor_category>
+			<organization_id json:type="number">134642</organization_id>
+			<postal_code></postal_code>
+			<reference></reference>
+			<token></token>
+		</customer>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF415377</document_number>
+			<memo>Ontbinding EQ322549 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-10348.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200143</document_number>
+	
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-10348.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435748</document_number>
+			<memo>Verkoopopbrengst EQ320594</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>1868.22</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF399258</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - ..EQ319931</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>1868.22</remaining_amount>
+			<transaction_due_on>2024-03-22</transaction_due_on>
+			<transaction_on>2024-03-22</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G24070.7125603</document_number>
+			<memo>Verkoopopbrengst EQ322544 VF594299</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2025-07-04</transaction_due_on>
+			<transaction_on>2025-07-04</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF415372</document_number>
+			<memo>Ontbinding EQ322542 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF420788</document_number>
+			<memo>Ontbinding EQ318314 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>7233.12</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF394209</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ318153..EQ318160</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>7233.12</remaining_amount>
+			<transaction_due_on>2024-03-08</transaction_due_on>
+			<transaction_on>2024-03-08</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-28978.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18924.5650565</document_number>
+			<memo>Verkoopopbrengst EQ318154</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-28978.00</remaining_amount>
+			<transaction_due_on>2024-08-16</transaction_due_on>
+			<transaction_on>2024-08-16</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-6223.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200157</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318303</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-6223.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3723.51</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF372162</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ312601..EQ315001</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3723.51</remaining_amount>
+			<transaction_due_on>2024-01-02</transaction_due_on>
+			<transaction_on>2023-12-26</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>8137.26</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF379285</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ318301..EQ318314</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>8137.26</remaining_amount>
+			<transaction_due_on>2024-01-24</transaction_due_on>
+			<transaction_on>2024-01-24</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>7233.12</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF361610</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ318153..EQ318160</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>7233.12</remaining_amount>
+			<transaction_due_on>2023-12-08</transaction_due_on>
+			<transaction_on>2023-12-08</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-29863.00</amount>
+			<currency>EUR</currency>
+			<document_number>G19231.5706258</document_number>
+			<memo>Verkoopopbrengst EQ318308</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-29863.00</remaining_amount>
+			<transaction_due_on>2024-09-02</transaction_due_on>
+			<transaction_on>2024-08-31</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435740</document_number>
+			<memo>Verkoopopbrengst EQ322545</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-7217.11</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200167</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318313</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-7217.11</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3500.00</amount>
+			<currency>EUR</currency>
+			<document_number>G20416.6051299</document_number>
+			<memo>Remarketing EQ316321 VF499501</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3500.00</remaining_amount>
+			<transaction_due_on>2024-11-15</transaction_due_on>
+			<transaction_on>2024-11-15</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3252.60</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF389099</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ322542..EQ322551</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3252.60</remaining_amount>
+			<transaction_due_on>2024-02-26</transaction_due_on>
+			<transaction_on>2024-02-25</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415361</document_number>
+			<memo>Ontbinding EQ318303 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF420801</document_number>
+			<memo>Ontbinding EQ322548 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415363</document_number>
+			<memo>Ontbinding EQ318304 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>904.14</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF416129</document_number>
+			<memo>Leasetermijn - EQ318153</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>904.14</remaining_amount>
+			<transaction_due_on>2024-04-08</transaction_due_on>
+			<transaction_on>2024-04-08</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415364</document_number>
+			<memo>Ontbinding EQ318308 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5090.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17517.5269855</document_number>
+			<memo>Verkoopopbrengst EQ322549</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5090.00</remaining_amount>
+			<transaction_due_on>2024-05-02</transaction_due_on>
+			<transaction_on>2024-05-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3359.30</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF403712</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ320585..EQ320594</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3359.30</remaining_amount>
+			<transaction_due_on>2024-04-02</transaction_due_on>
+			<transaction_on>2024-04-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>286.54</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF385580</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ316321</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>286.54</remaining_amount>
+			<transaction_due_on>2024-02-20</transaction_due_on>
+			<transaction_on>2024-02-20</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415358</document_number>
+			<memo>Ontbinding EQ318159 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF420792</document_number>
+			<memo>Ontbinding EQ320587 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF420793</document_number>
+			<memo>Ontbinding EQ320588 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>2571.06</amount>
+			<currency>EUR</currency>
+			<document_number>VF431102</document_number>
+			<memo>Doorbelasting Merks (Scania S450) 24028111</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>2571.06</remaining_amount>
+			<transaction_due_on>2024-05-27</transaction_due_on>
+			<transaction_on>2024-05-13</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-32115.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17057.5142058</document_number>
+			<memo>Verkoopopbrengst EQ318306</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-32115.00</remaining_amount>
+			<transaction_due_on>2024-04-09</transaction_due_on>
+			<transaction_on>2024-04-09</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5648.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200169</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318314</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5648.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-7848.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200141</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318157</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-7848.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435751</document_number>
+			<memo>Verkoopopbrengst EQ320585</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415360</document_number>
+			<memo>Ontbinding EQ318302 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>47115.28</amount>
+			<currency>EUR</currency>
+			<document_number>VF420784</document_number>
+			<memo>Ontbinding EQ318153 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>47115.28</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF420797</document_number>
+			<memo>Ontbinding EQ320593 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415353</document_number>
+			<memo>Ontbinding EQ318154 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435742</document_number>
+			<memo>Verkoopopbrengst EQ320591</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF420796</document_number>
+			<memo>Ontbinding EQ320592 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF420800</document_number>
+			<memo>Ontbinding EQ322547 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>2332.43</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF390047</document_number>
+			<memo>Leasetermijn - EQ312601..EQ315001</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>2332.43</remaining_amount>
+			<transaction_due_on>2024-01-26</transaction_due_on>
+			<transaction_on>2024-01-26</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5015.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17622.5297547</document_number>
+			<memo>Verkoopopbrengst EQ320592</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5015.00</remaining_amount>
+			<transaction_due_on>2024-05-27</transaction_due_on>
+			<transaction_on>2024-05-27</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>286.54</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF377943</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ316321</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>286.54</remaining_amount>
+			<transaction_due_on>2024-01-22</transaction_due_on>
+			<transaction_on>2024-01-20</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3359.30</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF382182</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ320585..EQ320594</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3359.30</remaining_amount>
+			<transaction_due_on>2024-02-02</transaction_due_on>
+			<transaction_on>2024-02-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5648.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200163</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318306</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5648.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>7233.12</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF372498</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ318153..EQ318160</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>7233.12</remaining_amount>
+			<transaction_due_on>2024-01-08</transaction_due_on>
+			<transaction_on>2024-01-08</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>10063.84</amount>
+			<currency>EUR</currency>
+			<document_number>VF415368</document_number>
+			<memo>Ontbinding EQ319929 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>10063.84</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18320.5448610</document_number>
+			<memo>Verkoopopbrengst EQ319928</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-7217.11</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200137</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318155</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-7217.11</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>564.01</amount>
+			<currency>EUR</currency>
+			<document_number>VF423035</document_number>
+			<memo>Doorbel. REC - Komen Transport B.V. (20240446)</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>564.01</remaining_amount>
+			<transaction_due_on>2024-04-24</transaction_due_on>
+			<transaction_on>2024-04-24</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>8137.26</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF387999</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ318301..EQ318314</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>8137.26</remaining_amount>
+			<transaction_due_on>2024-02-26</transaction_due_on>
+			<transaction_on>2024-02-24</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5215.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17621.5297543</document_number>
+			<memo>Verkoopopbrengst EQ322551</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5215.00</remaining_amount>
+			<transaction_due_on>2024-05-27</transaction_due_on>
+			<transaction_on>2024-05-27</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435750</document_number>
+			<memo>Verkoopopbrengst EQ320590</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>7233.12</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF383746</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ318153..EQ318160</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>7233.12</remaining_amount>
+			<transaction_due_on>2024-02-08</transaction_due_on>
+			<transaction_on>2024-02-08</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435745</document_number>
+			<memo>Verkoopopbrengst EQ322548</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF420791</document_number>
+			<memo>Ontbinding EQ320585 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF420787</document_number>
+			<memo>Ontbinding EQ318306 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3221.26</amount>
+			<currency>EUR</currency>
+			<document_number>VF409702</document_number>
+			<memo>Doorbelasting REC - Komen Transport BV (20240292)</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>3221.26</remaining_amount>
+			<transaction_due_on>2024-03-14</transaction_due_on>
+			<transaction_on>2024-03-14</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-36347.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18820.5597780</document_number>
+			<memo>Verkoopopbrengst EQ315001</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-36347.00</remaining_amount>
+			<transaction_due_on>2024-08-05</transaction_due_on>
+			<transaction_on>2024-08-05</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-25000.00</amount>
+			<currency>EUR</currency>
+			<document_number>G20416.6051311</document_number>
+			<memo>Remarketing EQ318158 VF499503</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-25000.00</remaining_amount>
+			<transaction_due_on>2024-11-15</transaction_due_on>
+			<transaction_on>2024-11-15</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF415370</document_number>
+			<memo>Ontbinding EQ320586 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF420786</document_number>
+			<memo>Ontbinding EQ318305 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435739</document_number>
+			<memo>Verkoopopbrengst EQ322550</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415357</document_number>
+			<memo>Ontbinding EQ318158 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415356</document_number>
+			<memo>Ontbinding EQ318157 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3252.60</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF400401</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ322542..EQ322551</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3252.60</remaining_amount>
+			<transaction_due_on>2024-03-25</transaction_due_on>
+			<transaction_on>2024-03-25</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>1868.22</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF373855</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ319925..EQ319931</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>1868.22</remaining_amount>
+			<transaction_due_on>2023-12-22</transaction_due_on>
+			<transaction_on>2023-12-22</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>286.54</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF398146</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ316321</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>286.54</remaining_amount>
+			<transaction_due_on>2024-03-20</transaction_due_on>
+			<transaction_on>2024-03-20</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-4500.00</amount>
+			<currency>EUR</currency>
+			<document_number>G26297.7938710</document_number>
+			<memo>Remarketing EQ320589 VF654863</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-4500.00</remaining_amount>
+			<transaction_due_on>2025-12-01</transaction_due_on>
+			<transaction_on>2025-12-01</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5155.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17513.5269817</document_number>
+			<memo>Verkoopopbrengst EQ319929</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5155.00</remaining_amount>
+			<transaction_due_on>2024-05-02</transaction_due_on>
+			<transaction_on>2024-05-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-7322.31</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200133</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318153</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-7322.31</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF415371</document_number>
+			<memo>Ontbinding EQ320591 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5015.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17645.5309677</document_number>
+			<memo>Verkoopopbrengst EQ320586</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5015.00</remaining_amount>
+			<transaction_due_on>2024-05-29</transaction_due_on>
+			<transaction_on>2024-05-29</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF415373</document_number>
+			<memo>Ontbinding EQ322544 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>10063.84</amount>
+			<currency>EUR</currency>
+			<document_number>VF420790</document_number>
+			<memo>Ontbinding EQ319927 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>10063.84</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435741</document_number>
+			<memo>Verkoopopbrengst EQ322542</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-7217.11</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200139</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318156</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-7217.11</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-26715.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17504.5269720</document_number>
+			<memo>Verkoopopbrengst EQ312601</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-26715.00</remaining_amount>
+			<transaction_due_on>2024-05-02</transaction_due_on>
+			<transaction_on>2024-05-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5730.94</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200071</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ315001</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5730.94</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-6573.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200165</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318308</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-6573.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435743</document_number>
+			<memo>Verkoopopbrengst EQ319931</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435744</document_number>
+			<memo>Verkoopopbrengst EQ319926</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF415375</document_number>
+			<memo>Ontbinding EQ322545 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-28978.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18924.5650564</document_number>
+			<memo>Verkoopopbrengst EQ318155</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-28978.00</remaining_amount>
+			<transaction_due_on>2024-08-16</transaction_due_on>
+			<transaction_on>2024-08-16</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>10063.84</amount>
+			<currency>EUR</currency>
+			<document_number>VF420789</document_number>
+			<memo>Ontbinding EQ319925 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>10063.84</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>721.31</amount>
+			<currency>EUR</currency>
+			<document_number>VF422375</document_number>
+			<memo>Doorbel. Komen Transport B.V. (20240426)</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>721.31</remaining_amount>
+			<transaction_due_on>2024-04-22</transaction_due_on>
+			<transaction_on>2024-04-22</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-28978.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18924.5650561</document_number>
+			<memo>Verkoopopbrengst EQ318313</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-28978.00</remaining_amount>
+			<transaction_due_on>2024-08-16</transaction_due_on>
+			<transaction_on>2024-08-16</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF420798</document_number>
+			<memo>Ontbinding EQ320594 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF415378</document_number>
+			<memo>Ontbinding EQ322550 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>2332.43</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF400574</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ312601..EQ315001</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>2332.43</remaining_amount>
+			<transaction_due_on>2024-03-26</transaction_due_on>
+			<transaction_on>2024-03-26</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-7217.11</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200135</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318154</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-7217.11</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3252.60</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF376355</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ322542..EQ322551</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3252.60</remaining_amount>
+			<transaction_due_on>2024-01-25</transaction_due_on>
+			<transaction_on>2024-01-25</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-7217.11</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200159</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318304</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-7217.11</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3359.30</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF391214</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ320585..EQ320594</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3359.30</remaining_amount>
+			<transaction_due_on>2024-03-04</transaction_due_on>
+			<transaction_on>2024-03-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF415376</document_number>
+			<memo>Ontbinding EQ322546 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3252.60</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF372163</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ322542..EQ322551</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3252.60</remaining_amount>
+			<transaction_due_on>2024-01-01</transaction_due_on>
+			<transaction_on>2023-12-25</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF420794</document_number>
+			<memo>Ontbinding EQ320589 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-25000.00</amount>
+			<currency>EUR</currency>
+			<document_number>G20350.6012343</document_number>
+			<memo>Remarketing EQ318157 VF498129</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-25000.00</remaining_amount>
+			<transaction_due_on>2024-11-07</transaction_due_on>
+			<transaction_on>2024-11-07</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>4837.76</amount>
+			<currency>EUR</currency>
+			<document_number>VF495541</document_number>
+			<memo>Remarketing kosten - Merks (24028490)</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>4837.76</remaining_amount>
+			<transaction_due_on>2024-10-31</transaction_due_on>
+			<transaction_on>2024-10-31</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>19744.35</amount>
+			<currency>EUR</currency>
+			<document_number>VF415350</document_number>
+			<memo>Ontbinding EQ312601 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>19744.35</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-29720.00</amount>
+			<currency>EUR</currency>
+			<document_number>G19871.5890746</document_number>
+			<memo>Verkoopopbrengst EQ318303</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-29720.00</remaining_amount>
+			<transaction_due_on>2024-10-02</transaction_due_on>
+			<transaction_on>2024-10-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF420785</document_number>
+			<memo>Ontbinding EQ318301 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415359</document_number>
+			<memo>Ontbinding EQ318160 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-27736.00</amount>
+			<currency>EUR</currency>
+			<document_number>G19604.5816249</document_number>
+			<memo>Verkoopopbrengst EQ318305</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-27736.00</remaining_amount>
+			<transaction_due_on>2024-09-27</transaction_due_on>
+			<transaction_on>2024-09-27</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-31286.00</amount>
+			<currency>EUR</currency>
+			<document_number>G20066.5975878</document_number>
+			<memo>VF495510 verkoop EQ318159</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-31286.00</remaining_amount>
+			<transaction_due_on>2024-10-31</transaction_due_on>
+			<transaction_on>2024-10-31</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-25000.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17653.5309813</document_number>
+			<memo>Verkoopopbrengst EQ318160</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-25000.00</remaining_amount>
+			<transaction_due_on>2024-05-29</transaction_due_on>
+			<transaction_on>2024-05-29</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435747</document_number>
+			<memo>Verkoopopbrengst EQ322543</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-10348.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200153</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318301</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-10348.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-7098.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200155</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318302</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-7098.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-28978.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18924.5650566</document_number>
+			<memo>Verkoopopbrengst EQ318153</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-28978.00</remaining_amount>
+			<transaction_due_on>2024-08-16</transaction_due_on>
+			<transaction_on>2024-08-16</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-7773.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200161</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318305</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-7773.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>1164.46</amount>
+			<currency>EUR</currency>
+			<document_number>VF423036</document_number>
+			<memo>Doorbel. REC - Komen Transport B.V. (20240444)</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>1164.46</remaining_amount>
+			<transaction_due_on>2024-04-24</transaction_due_on>
+			<transaction_on>2024-04-24</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-21780.00</amount>
+			<currency>EUR</currency>
+			<document_number>RB61119439.5115839</document_number>
+			<memo>Paid invoices: 2024040036</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-21780.00</remaining_amount>
+			<transaction_due_on>2024-04-11</transaction_due_on>
+			<transaction_on>2024-04-11</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>2673.68</amount>
+			<currency>EUR</currency>
+			<document_number>VF434113</document_number>
+			<memo>Doorbelasting REC - Auto Elektro Venlo (24028143)</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>2673.68</remaining_amount>
+			<transaction_due_on>2024-06-05</transaction_due_on>
+			<transaction_on>2024-05-22</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5090.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17516.5269837</document_number>
+			<memo>Verkoopopbrengst EQ322546</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5090.00</remaining_amount>
+			<transaction_due_on>2024-05-02</transaction_due_on>
+			<transaction_on>2024-05-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>7616.91</amount>
+			<currency>EUR</currency>
+			<document_number>VF415379</document_number>
+			<memo>Ontbindingsboete</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>7616.91</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-25000.00</amount>
+			<currency>EUR</currency>
+			<document_number>G20350.6012349</document_number>
+			<memo>Remarketing EQ318301 VF498127</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-25000.00</remaining_amount>
+			<transaction_due_on>2024-11-07</transaction_due_on>
+			<transaction_on>2024-11-07</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>7650.32</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF372167</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ318301..EQ318314</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>7650.32</remaining_amount>
+			<transaction_due_on>2024-01-03</transaction_due_on>
+			<transaction_on>2023-12-24</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>1868.22</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF384861</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ319925..EQ319931</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>1868.22</remaining_amount>
+			<transaction_due_on>2024-02-22</transaction_due_on>
+			<transaction_on>2024-02-22</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>1868.22</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF377263</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ319925..EQ319931</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>1868.22</remaining_amount>
+			<transaction_due_on>2024-01-22</transaction_due_on>
+			<transaction_on>2024-01-22</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-29215.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18658.5576345</document_number>
+			<memo>Verkoopopbrengst EQ318302</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-29215.00</remaining_amount>
+			<transaction_due_on>2024-07-30</transaction_due_on>
+			<transaction_on>2024-07-30</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>286.54</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF373856</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ316321</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>286.54</remaining_amount>
+			<transaction_due_on>2023-12-20</transaction_due_on>
+			<transaction_on>2023-12-20</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>2332.43</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF390145</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ312601..EQ315001</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>2332.43</remaining_amount>
+			<transaction_due_on>2024-02-26</transaction_due_on>
+			<transaction_on>2024-02-26</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435746</document_number>
+			<memo>Verkoopopbrengst EQ322547</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>54236.49</amount>
+			<currency>EUR</currency>
+			<document_number>VF415351</document_number>
+			<memo>Ontbinding EQ315001 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>54236.49</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+		<amount>3359.30</amount>
+<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF370536</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ320585..EQ320594</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3359.30</remaining_amount>
+			<transaction_due_on>2024-01-02</transaction_due_on>
+			<transaction_on>2024-01-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435749</document_number>
+			<memo>Verkoopopbrengst EQ320593</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF420799</document_number>
+			<memo>Ontbinding EQ322543 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415365</document_number>
+			<memo>Ontbinding EQ318313 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415355</document_number>
+			<memo>Ontbinding EQ318156 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G25893.7766208</document_number>
+			<memo>Kögel S-24 (2017) OP-14-TJ CN22331</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>3950.00</remaining_amount>
+			<transaction_due_on>2025-11-18</transaction_due_on>
+			<transaction_on>2025-11-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5090.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17511.5269811</document_number>
+			<memo>Verkoopopbrengst EQ319925</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5090.00</remaining_amount>
+			<transaction_due_on>2024-05-02</transaction_due_on>
+			<transaction_on>2024-05-02</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>10063.84</amount>
+			<currency>EUR</currency>
+			<document_number>VF415367</document_number>
+			<memo>Ontbinding EQ319928 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>10063.84</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>3825.02</amount>
+			<currency>EUR</currency>
+			<document_number>VF415352</document_number>
+			<memo>Ontbinding EQ316321 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>3825.02</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>48019.42</amount>
+			<currency>EUR</currency>
+			<document_number>VF415354</document_number>
+			<memo>Ontbinding EQ318155 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>48019.42</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-5773.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200145</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318159</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-5773.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>10063.84</amount>
+			<currency>EUR</currency>
+			<document_number>VF415366</document_number>
+			<memo>Ontbinding EQ319926 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>10063.84</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-32353.00</amount>
+			<currency>EUR</currency>
+			<document_number>G17058.5142062</document_number>
+			<memo>Verkoopopbrengst EQ318314</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-32353.00</remaining_amount>
+			<transaction_due_on>2024-04-09</transaction_due_on>
+			<transaction_on>2024-04-09</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-3950.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18249.5435752</document_number>
+			<memo>Verkoopopbrengst EQ319927</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-3950.00</remaining_amount>
+			<transaction_due_on>2024-06-28</transaction_due_on>
+			<transaction_on>2024-06-28</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-28843.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18924.5650562</document_number>
+			<memo>Verkoopopbrengst EQ318304</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-28843.00</remaining_amount>
+			<transaction_due_on>2024-08-16</transaction_due_on>
+			<transaction_on>2024-08-16</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>12134.62</amount>
+			<currency>EUR</currency>
+			<document_number>VF420802</document_number>
+			<memo>Ontbinding EQ322551 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>12134.62</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>8137.26</amount>
+			<beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+			<beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+			<currency>EUR</currency>
+			<document_number>VF399999</document_number>
+			<failed_collection_reason>MD01</failed_collection_reason>
+			<memo>Leasetermijn - EQ318301..EQ318314</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>8137.26</remaining_amount>
+			<transaction_due_on>2024-03-25</transaction_due_on>
+			<transaction_on>2024-03-24</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>11185.69</amount>
+			<currency>EUR</currency>
+			<document_number>VF420795</document_number>
+			<memo>Ontbinding EQ320590 per 18-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>11185.69</remaining_amount>
+			<transaction_due_on>2024-04-18</transaction_due_on>
+			<transaction_on>2024-04-18</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-28978.00</amount>
+			<currency>EUR</currency>
+			<document_number>G18924.5650563</document_number>
+			<memo>Verkoopopbrengst EQ318156</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-28978.00</remaining_amount>
+			<transaction_due_on>2024-08-16</transaction_due_on>
+			<transaction_on>2024-08-16</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>10063.84</amount>
+			<currency>EUR</currency>
+			<document_number>VF415369</document_number>
+			<memo>Ontbinding EQ319931 per 03-04-2024</memo>
+			<payment_method>Electronic Payment</payment_method>
+			<remaining_amount>10063.84</remaining_amount>
+			<transaction_due_on>2024-04-03</transaction_due_on>
+			<transaction_on>2024-04-03</transaction_on>
+		</invoices>
+		<invoices json:array="true">
+			<amount>-10348.61</amount>
+			<currency>EUR</currency>
+			<document_number>G20989.6200147</document_number>
+			<memo>EIF TrucksBanden Koning B.V. EQ318160</memo>
+			<payment_method>Direct Debit</payment_method>
+			<remaining_amount>-10348.61</remaining_amount>
+			<transaction_due_on>2024-12-23</transaction_due_on>
+			<transaction_on>2024-12-23</transaction_on>
+		</invoices>
+	</request>
+</Items>

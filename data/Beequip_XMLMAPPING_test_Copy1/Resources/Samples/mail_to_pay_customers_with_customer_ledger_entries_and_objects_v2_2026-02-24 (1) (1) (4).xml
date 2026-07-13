@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items xmlns:json="http://arc.cdata.com/ns/jsonconnector" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <request json:array="">
+    <customer>
+      <address>Prins Frederikdreef 12</address>
+      <bank_account_number>NL96RABO0303854901</bank_account_number>
+      <city>KATWIJK</city>
+      <coc_number>60385022</coc_number>
+      <contact_person_email>wim@wcouwehand.nl</contact_person_email>
+      <contact_person_name>Wim</contact_person_name>
+      <contact_person_phone>+31620498535</contact_person_phone>
+      <country_code>NL</country_code>
+      <current_days_past_due></current_days_past_due>
+      <current_outstanding_eur json:type="">0</current_outstanding_eur>
+      <entity_id json:type="">6314</entity_id>
+      <general_email>wim@wcouwehand.nl</general_email>
+      <general_phone_number>0714090760</general_phone_number>
+      <human_customer_segment>Kleinbedrijf</human_customer_segment>
+      <human_kind>besloten vennootschap met beperkte aansprakelijkheid</human_kind>
+      <human_sales_region>Noord-West</human_sales_region>
+      <human_sales_team>Road Transport</human_sales_team>
+      <invoice_email>vanwezel.8252@mailtobasecone.nl</invoice_email>
+      <is_currently_stage_3 json:type="">false</is_currently_stage_3>
+      <locale>nl</locale>
+      <mail2pay_workflow>dissolved_default</mail2pay_workflow>
+      <mandate_reference>BEEQUB2B1294</mandate_reference>
+      <monthly_collection_limit_eur json:type="">4949</monthly_collection_limit_eur>
+      <name>Ouwehand Bloemen Direct B.V.</name>
+      <one_obligor_days_since_last_invoice_past_due>43</one_obligor_days_since_last_invoice_past_due>
+      <one_obligor_outstanding_debtor_category>Worker</one_obligor_outstanding_debtor_category>
+      <one_obligor_payment_score json:type="">0.67</one_obligor_payment_score>
+      <organization_id json:type="">24426</organization_id>
+      <postal_code>2224AA</postal_code>
+      <reference>BQ22771</reference>
+      <token>kHCKCpGhkPjN8NvvhZdqJ9zf</token>
+      <twikey_sign_url>https://www.twikey.com/short/beequipbv/DNsN</twikey_sign_url>
+    </customer>
+    <invoices json:array="true">
+      <amount>2084.94</amount>
+      <beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+      <beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+      <currency>EUR</currency>
+      <document_number>VF660499</document_number>
+      <memo>Leasetermijn - EQ306442</memo>
+      <payment_method>Direct Debit</payment_method>
+      <remaining_amount>2084.94</remaining_amount>
+      <transaction_due_on>2026-01-12</transaction_due_on>
+      <transaction_on>2026-01-12</transaction_on>
+    </invoices>
+    <invoices json:array="true">
+      <amount>1680.90</amount>
+      <beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+      <beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+      <currency>EUR</currency>
+      <document_number>VF646272</document_number>
+      <memo>Leasetermijn - EQ314990</memo>
+      <payment_method>Direct Debit</payment_method>
+      <remaining_amount>1680.90</remaining_amount>
+      <transaction_due_on>2025-11-25</transaction_due_on>
+      <transaction_on>2025-11-25</transaction_on>
+    </invoices>
+    <invoices json:array="true">
+      <amount>680.90</amount>
+      <beequip_accounting_event_type>object_financing_monthly_annuity_term</beequip_accounting_event_type>
+      <beequip_transaction_type>monthly_annuity_term</beequip_transaction_type>
+      <currency>EUR</currency>
+      <document_number>VF628080</document_number>
+      <memo>Leasetermijn - EQ314990</memo>
+      <payment_method>Direct Debit</payment_method>
+      <remaining_amount>680.90</remaining_amount>
+      <transaction_due_on>2025-10-27</transaction_due_on>
+      <transaction_on>2025-10-25</transaction_on>
+    </invoices>
+    <invoices json:array="true">
+      <amount>29190.16</amount>
+      <beequip_accounting_event_type></beequip_accounting_event_type>
+      <beequip_transaction_type></beequip_transaction_type>
+      <currency>EUR</currency>
+      <document_number>VF679710</document_number>
+      <memo>Ontbinding EQ306442 per 26-01-2026</memo>
+      <payment_method>Electronic Payment</payment_method>
+      <remaining_amount>29190.16</remaining_amount>
+      <transaction_due_on>2026-01-26</transaction_due_on>
+      <transaction_on>2026-01-26</transaction_on>
+    </invoices>
+    <invoices json:array="true">
+      <amount>5000.00</amount>
+      <beequip_accounting_event_type></beequip_accounting_event_type>
+      <beequip_transaction_type></beequip_transaction_type>
+      <currency>EUR</currency>
+      <document_number>VF679712</document_number>
+      <memo>Ontbindingsboete</memo>
+      <payment_method>Electronic Payment</payment_method>
+      <remaining_amount>5000.00</remaining_amount>
+      <transaction_due_on>2026-01-26</transaction_due_on>
+      <transaction_on>2026-01-26</transaction_on>
+    </invoices>
+    <invoices json:array="true">
+      <amount>21951.70</amount>
+      <beequip_accounting_event_type></beequip_accounting_event_type>
+      <beequip_transaction_type></beequip_transaction_type>
+      <currency>EUR</currency>
+      <document_number>VF679711</document_number>
+      <memo>Ontbinding EQ314990 per 26-01-2026</memo>
+      <payment_method>Electronic Payment</payment_method>
+      <remaining_amount>21951.70</remaining_amount>
+      <transaction_due_on>2026-01-26</transaction_due_on>
+      <transaction_on>2026-01-26</transaction_on>
+    </invoices>
+    <objects>
+      <object>
+&lt;tr&gt;
+  &lt;td class=&apos;beequip_contract&apos;&gt;EQ314990&lt;/td&gt;
+  &lt;td class=&apos;beequip_brand&apos;&gt;Trias&lt;/td&gt;
+  &lt;td class=&apos;beequip_type&apos;&gt;712330&lt;/td&gt;
+  &lt;td class=&apos;beequip_license&apos;&gt;OR-94-VBG&lt;/td&gt;
+  &lt;td class=&apos;beequip_serial&apos;&gt;&lt;/td&gt;
+  &lt;td class=&apos;beequip_chassis&apos;&gt;XL9187121P0146074&lt;/td&gt;
+&lt;/tr&gt;</object>
+    </objects>
+    <objects>
+      <object>
+&lt;tr&gt;
+  &lt;td class=&apos;beequip_contract&apos;&gt;EQ306442&lt;/td&gt;
+  &lt;td class=&apos;beequip_brand&apos;&gt;Scania&lt;/td&gt;
+  &lt;td class=&apos;beequip_type&apos;&gt;S520 4x2 trekker&lt;/td&gt;
+  &lt;td class=&apos;beequip_license&apos;&gt;37-BNT-4G&lt;/td&gt;
+  &lt;td class=&apos;beequip_serial&apos;&gt;&lt;/td&gt;
+  &lt;td class=&apos;beequip_chassis&apos;&gt;YS2S4X20005567067&lt;/td&gt;
+&lt;/tr&gt;</object>
+    </objects>
+  </request>
+</Items>

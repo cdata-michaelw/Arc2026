@@ -1,0 +1,1312 @@
+<Interchange Delimiters=":+.?*&apos;" xmlns="http://www.rssbus.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Meta>
+<!--SYNTAX IDENTIFIER-->
+<UNB1 type="Composite">
+<!--Syntax identifier-->
+<UNB1.1><!--UN/ECE level B-->UNOB</UNB1.1>
+<!--Syntax version number-->
+<UNB1.2><!--Version 3-->3</UNB1.2>
+</UNB1>
+<!--INTERCHANGE SENDER-->
+<UNB2 type="Composite">
+<!--Interchange sender identification-->
+<UNB2.1> </UNB2.1>
+</UNB2>
+<!--INTERCHANGE RECIPIENT-->
+<UNB3 type="Composite">
+<!--Interchange recipient identification-->
+<UNB3.1> </UNB3.1>
+</UNB3>
+<!--DATE AND TIME OF PREPARATION-->
+<UNB4 type="Composite">
+<!--Date-->
+<UNB4.1>260709</UNB4.1>
+<!--Time-->
+<UNB4.2>1341</UNB4.2>
+</UNB4>
+<!--Interchange control reference-->
+<UNB5>000000004</UNB5>
+</Meta>
+<TransactionSet>
+<TX-D97A-ORDRSP type="TransactionSet">
+<Meta>
+<!--MESSAGE REFERENCE NUMBER-->
+<_0062>1</_0062>
+<!--MESSAGE IDENTIFIER-->
+<S009 type="Composite">
+<!--Message type identifier-->
+<_0065><!--Purchase order response message-->ORDRSP</_0065>
+<!--Message type version number-->
+<_0052><!--Draft version/UN/EDIFACT Directory-->D</_0052>
+<!--Message type release number-->
+<_0054><!--Release 1997 - A-->97A</_0054>
+<!--Controlling agency-->
+<_0051><!--UN/ECE/TRADE/WP.4-->UN</_0051>
+</S009>
+</Meta>
+<!--BEGINNING OF MESSAGE-->
+<BGM type="Segment">
+<!--DOCUMENT/MESSAGE NAME-->
+<C002 type="Composite">
+<!--Document/message name, coded-->
+<_1001><!--Purchase order response-->231</_1001>
+</C002>
+<!--DOCUMENT/MESSAGE IDENTIFICATION-->
+<C106 type="Composite">
+<!--Document/message number-->
+<_1004>ORD20251113001</_1004>
+</C106>
+<!--MESSAGE FUNCTION, CODED-->
+<_1225><!--Original-->9</_1225>
+<!--RESPONSE TYPE, CODED-->
+<_4343>AT</_4343>
+</BGM>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Document/message date/time-->137</_2005>
+<!--Date/time/period-->
+<_2380>20251113</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Delivery date/time, requested-->2</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Delivery date/time, earliest-->64</_2005>
+<!--Date/time/period-->
+<_2380>20251115</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Delivery date/time, latest-->63</_2005>
+<!--Date/time/period-->
+<_2380>20251116</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Pick-up/collection date/time of cargo-->200</_2005>
+<!--Date/time/period-->
+<_2380>20251125</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251118</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--PAYMENT INSTRUCTIONS-->
+<PAI type="Segment">
+<!--PAYMENT INSTRUCTION DETAILS-->
+<C534 type="Composite">
+<!--Payment conditions, coded-->
+<_4439></_4439>
+<!--Payment guarantee, coded-->
+<_4431></_4431>
+<!--Payment means, coded-->
+<_4461><!--Instrument not defined-->1</_4461>
+</C534>
+</PAI>
+<!--FREE TEXT-->
+<FTX type="Segment">
+<!--TEXT SUBJECT QUALIFIER-->
+<_4451><!--General information-->AAI</_4451>
+<!--TEXT FUNCTION, CODED-->
+<_4453/>
+<!--TEXT REFERENCE-->
+<C107 type="Composite">
+</C107>
+<!--TEXT LITERAL-->
+<C108 type="Composite">
+<!--Free text-->
+<_4440>Net 30 Days</_4440>
+</C108>
+</FTX>
+<!--FREE TEXT-->
+<FTX type="Segment">
+<!--TEXT SUBJECT QUALIFIER-->
+<_4451><!--Mutually defined-->ZZZ</_4451>
+<!--TEXT FUNCTION, CODED-->
+<_4453/>
+<!--TEXT REFERENCE-->
+<C107 type="Composite">
+</C107>
+<!--TEXT LITERAL-->
+<C108 type="Composite">
+<!--Free text-->
+<_4440>General Notes</_4440>
+<!--Free text-->
+<_4440> Please use eco-friendly packaging.</_4440>
+</C108>
+</FTX>
+<RFFLoop1 type="Loop">
+<!--REFERENCE-->
+<RFF type="Segment">
+<!--REFERENCE-->
+<C506 type="Composite">
+<!--Reference qualifier-->
+<_1153><!--Additional reference number-->ACD</_1153>
+<!--Reference number-->
+<_1154>IA001</_1154>
+</C506>
+</RFF>
+</RFFLoop1>
+<RFFLoop1 type="Loop">
+<!--REFERENCE-->
+<RFF type="Segment">
+<!--REFERENCE-->
+<C506 type="Composite">
+<!--Reference qualifier-->
+<_1153><!--Customer reference number-->CR</_1153>
+<!--Reference number-->
+<_1154>UPSAcc</_1154>
+</C506>
+</RFF>
+</RFFLoop1>
+<NADLoop1 type="Loop">
+<!--NAME AND ADDRESS-->
+<NAD type="Segment">
+<!--PARTY QUALIFIER-->
+<_3035><!--Buyer-->BY</_3035>
+<!--PARTY IDENTIFICATION DETAILS-->
+<C082 type="Composite">
+<!--Party id. identification-->
+<_3039>XXXXXXXXX</_3039>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C082>
+<!--NAME AND ADDRESS-->
+<C058 type="Composite">
+</C058>
+<!--PARTY NAME-->
+<C080 type="Composite">
+</C080>
+<!--STREET-->
+<C059 type="Composite">
+</C059>
+<!--CITY NAME-->
+<_3164>Buyer Company</_3164>
+<!--COUNTRY SUB-ENTITY IDENTIFICATION-->
+<_3229>XXX Buyer Address</_3229>
+<!--POSTCODE IDENTIFICATION-->
+<_3251>City</_3251>
+<!--COUNTRY, CODED-->
+<_3207>ST</_3207>
+</NAD>
+<RFFLoop2 type="Loop">
+<!--REFERENCE-->
+<RFF type="Segment">
+<!--REFERENCE-->
+<C506 type="Composite">
+<!--Reference qualifier-->
+<_1153>API</_1153>
+<!--Reference number-->
+<_1154>Attn</_1154>
+<!--Line number-->
+<_1156> Procurement Dept</_1156>
+</C506>
+</RFF>
+</RFFLoop2>
+<CTALoop1 type="Loop">
+<!--CONTACT INFORMATION-->
+<CTA type="Segment">
+<!--CONTACT FUNCTION, CODED-->
+<_3139><!--Information contact-->IC</_3139>
+<!--DEPARTMENT OR EMPLOYEE DETAILS-->
+<C056 type="Composite">
+<!--Department or employee identification-->
+<_3413></_3413>
+<!--Department or employee-->
+<_3412>Procurement Team</_3412>
+</C056>
+</CTA>
+<!--COMMUNICATION CONTACT-->
+<COM type="Segment">
+<!--COMMUNICATION CONTACT-->
+<C076 type="Composite">
+<!--Communication number-->
+<_3148>5551234567</_3148>
+<!--Communication channel qualifier-->
+<_3155><!--Telephone-->TE</_3155>
+</C076>
+</COM>
+<!--COMMUNICATION CONTACT-->
+<COM type="Segment">
+<!--COMMUNICATION CONTACT-->
+<C076 type="Composite">
+<!--Communication number-->
+<_3148>procurement@example.com</_3148>
+<!--Communication channel qualifier-->
+<_3155><!--Electronic mail-->EM</_3155>
+</C076>
+</COM>
+<!--COMMUNICATION CONTACT-->
+<COM type="Segment">
+<!--COMMUNICATION CONTACT-->
+<C076 type="Composite">
+<!--Communication number-->
+<_3148>5551234568</_3148>
+<!--Communication channel qualifier-->
+<_3155><!--Telefax-->FX</_3155>
+</C076>
+</COM>
+</CTALoop1>
+</NADLoop1>
+<NADLoop1 type="Loop">
+<!--NAME AND ADDRESS-->
+<NAD type="Segment">
+<!--PARTY QUALIFIER-->
+<_3035><!--Delivery party-->DP</_3035>
+<!--PARTY IDENTIFICATION DETAILS-->
+<C082 type="Composite">
+<!--Party id. identification-->
+<_3039>XXXXXXXXX</_3039>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C082>
+<!--NAME AND ADDRESS-->
+<C058 type="Composite">
+</C058>
+<!--PARTY NAME-->
+<C080 type="Composite">
+</C080>
+<!--STREET-->
+<C059 type="Composite">
+</C059>
+<!--CITY NAME-->
+<_3164>Ship To Location</_3164>
+<!--COUNTRY SUB-ENTITY IDENTIFICATION-->
+<_3229>XXX Ship To Address</_3229>
+<!--POSTCODE IDENTIFICATION-->
+<_3251>City</_3251>
+<!--COUNTRY, CODED-->
+<_3207>ST</_3207>
+</NAD>
+<RFFLoop2 type="Loop">
+<!--REFERENCE-->
+<RFF type="Segment">
+<!--REFERENCE-->
+<C506 type="Composite">
+<!--Reference qualifier-->
+<_1153>API</_1153>
+<!--Reference number-->
+<_1154>Attn</_1154>
+<!--Line number-->
+<_1156> Warehouse</_1156>
+</C506>
+</RFF>
+</RFFLoop2>
+<CTALoop1 type="Loop">
+<!--CONTACT INFORMATION-->
+<CTA type="Segment">
+<!--CONTACT FUNCTION, CODED-->
+<_3139><!--Information contact-->IC</_3139>
+<!--DEPARTMENT OR EMPLOYEE DETAILS-->
+<C056 type="Composite">
+<!--Department or employee identification-->
+<_3413></_3413>
+<!--Department or employee-->
+<_3412>Warehouse Manager</_3412>
+</C056>
+</CTA>
+<!--COMMUNICATION CONTACT-->
+<COM type="Segment">
+<!--COMMUNICATION CONTACT-->
+<C076 type="Composite">
+<!--Communication number-->
+<_3148>5559876543</_3148>
+<!--Communication channel qualifier-->
+<_3155><!--Telephone-->TE</_3155>
+</C076>
+</COM>
+<!--COMMUNICATION CONTACT-->
+<COM type="Segment">
+<!--COMMUNICATION CONTACT-->
+<C076 type="Composite">
+<!--Communication number-->
+<_3148>warehouse@example.com</_3148>
+<!--Communication channel qualifier-->
+<_3155><!--Electronic mail-->EM</_3155>
+</C076>
+</COM>
+<!--COMMUNICATION CONTACT-->
+<COM type="Segment">
+<!--COMMUNICATION CONTACT-->
+<C076 type="Composite">
+<!--Communication number-->
+<_3148>5559876544</_3148>
+<!--Communication channel qualifier-->
+<_3155><!--Telefax-->FX</_3155>
+</C076>
+</COM>
+</CTALoop1>
+</NADLoop1>
+<NADLoop1 type="Loop">
+<!--NAME AND ADDRESS-->
+<NAD type="Segment">
+<!--PARTY QUALIFIER-->
+<_3035><!--Supplier-->SU</_3035>
+<!--PARTY IDENTIFICATION DETAILS-->
+<C082 type="Composite">
+<!--Party id. identification-->
+<_3039>VENDOR123</_3039>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C082>
+<!--NAME AND ADDRESS-->
+<C058 type="Composite">
+</C058>
+<!--PARTY NAME-->
+<C080 type="Composite">
+</C080>
+<!--STREET-->
+<C059 type="Composite">
+</C059>
+<!--CITY NAME-->
+<_3164>Vendor Company</_3164>
+<!--COUNTRY SUB-ENTITY IDENTIFICATION-->
+<_3229>XXX Vendor Address</_3229>
+<!--POSTCODE IDENTIFICATION-->
+<_3251>City</_3251>
+<!--COUNTRY, CODED-->
+<_3207>ST</_3207>
+</NAD>
+<RFFLoop2 type="Loop">
+<!--REFERENCE-->
+<RFF type="Segment">
+<!--REFERENCE-->
+<C506 type="Composite">
+<!--Reference qualifier-->
+<_1153>API</_1153>
+<!--Reference number-->
+<_1154>Attn</_1154>
+<!--Line number-->
+<_1156> Sales Dept</_1156>
+</C506>
+</RFF>
+</RFFLoop2>
+<CTALoop1 type="Loop">
+<!--CONTACT INFORMATION-->
+<CTA type="Segment">
+<!--CONTACT FUNCTION, CODED-->
+<_3139><!--Information contact-->IC</_3139>
+<!--DEPARTMENT OR EMPLOYEE DETAILS-->
+<C056 type="Composite">
+<!--Department or employee identification-->
+<_3413></_3413>
+<!--Department or employee-->
+<_3412>Vendor Rep</_3412>
+</C056>
+</CTA>
+<!--COMMUNICATION CONTACT-->
+<COM type="Segment">
+<!--COMMUNICATION CONTACT-->
+<C076 type="Composite">
+<!--Communication number-->
+<_3148>5554567890</_3148>
+<!--Communication channel qualifier-->
+<_3155><!--Telephone-->TE</_3155>
+</C076>
+</COM>
+<!--COMMUNICATION CONTACT-->
+<COM type="Segment">
+<!--COMMUNICATION CONTACT-->
+<C076 type="Composite">
+<!--Communication number-->
+<_3148>vendor@example.com</_3148>
+<!--Communication channel qualifier-->
+<_3155><!--Electronic mail-->EM</_3155>
+</C076>
+</COM>
+<!--COMMUNICATION CONTACT-->
+<COM type="Segment">
+<!--COMMUNICATION CONTACT-->
+<C076 type="Composite">
+<!--Communication number-->
+<_3148>5554567891</_3148>
+<!--Communication channel qualifier-->
+<_3155><!--Telefax-->FX</_3155>
+</C076>
+</COM>
+</CTALoop1>
+</NADLoop1>
+<CUXLoop1 type="Loop">
+<!--CURRENCIES-->
+<CUX type="Segment">
+<!--CURRENCY DETAILS-->
+<C504 type="Composite">
+<!--Currency details qualifier-->
+<_6347><!--Reference currency-->2</_6347>
+<!--Currency, coded-->
+<_6345>USD</_6345>
+<!--Currency qualifier-->
+<_6343><!--Order currency-->9</_6343>
+</C504>
+</CUX>
+</CUXLoop1>
+<TDTLoop1 type="Loop">
+<!--DETAILS OF TRANSPORT-->
+<TDT type="Segment">
+<!--TRANSPORT STAGE QUALIFIER-->
+<_8051><!--Main-carriage transport-->20</_8051>
+<!--CONVEYANCE REFERENCE NUMBER-->
+<_8028/>
+<!--MODE OF TRANSPORT-->
+<C220 type="Composite">
+<!--Mode of transport, coded-->
+<_8067>2</_8067>
+</C220>
+<!--TRANSPORT MEANS-->
+<C228 type="Composite">
+<!--Type of means of transport identification-->
+<_8179>UPS</_8179>
+</C228>
+<!--CARRIER-->
+<C040 type="Composite">
+</C040>
+<!--TRANSIT DIRECTION, CODED-->
+<_8101/>
+<!--EXCESS TRANSPORTATION INFORMATION-->
+<C401 type="Composite">
+<!--Excess transportation reason, coded-->
+<_8457><!--Special rail car order, schedule increase forecast change-->A</_8457>
+</C401>
+</TDT>
+</TDTLoop1>
+<TODLoop1 type="Loop">
+<!--TERMS OF DELIVERY OR TRANSPORT-->
+<TOD type="Segment">
+<!--TERMS OF DELIVERY OR TRANSPORT FUNCTION, CODED-->
+<_4055><!--Delivery condition-->6</_4055>
+<!--TRANSPORT CHARGES METHOD OF PAYMENT, CODED-->
+<_4215/>
+<!--TERMS OF DELIVERY OR TRANSPORT-->
+<C100 type="Composite">
+<!--Terms of delivery or transport, coded-->
+<_4053>CC</_4053>
+<!--Code list qualifier-->
+<_1131>Delivered Ex Dock</_1131>
+</C100>
+</TOD>
+</TODLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>1</_1082>
+<!--ACTION REQUEST/NOTIFICATION, CODED-->
+<_1229/>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>SKU001</_7140>
+<!--Item number type, coded-->
+<_7143><!--SKU (Stock keeping unit)-->SK</_7143>
+</C212>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>VEND001</_7140>
+<!--Item number type, coded-->
+<_7143><!--Vendor item number-->VN</_7143>
+</C212>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite" repeat="false">
+<!--Item number-->
+<_7140>UNIT</_7140>
+<!--Item number type, coded-->
+<_7143>UK</_7143>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+<!--ITEM CHARACTERISTIC, CODED-->
+<_7081/>
+<!--ITEM DESCRIPTION-->
+<C273 type="Composite">
+<!--Item description identification-->
+<_7009></_7009>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Item description-->
+<_7008>Dog Food - Chicken &amp; Rice 20lb Bag</_7008>
+</C273>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Ordered quantity-->21</_6063>
+<!--Quantity-->
+<_6060>10</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>159.90</_5004>
+</C516>
+</MOA>
+<!--FREE TEXT-->
+<FTX type="Segment">
+<!--TEXT SUBJECT QUALIFIER-->
+<_4451><!--Mutually defined-->ZZZ</_4451>
+<!--TEXT FUNCTION, CODED-->
+<_4453/>
+<!--TEXT REFERENCE-->
+<C107 type="Composite">
+</C107>
+<!--TEXT LITERAL-->
+<C108 type="Composite">
+<!--Free text-->
+<_4440>Special Handling Required</_4440>
+</C108>
+</FTX>
+<AJTLoop2 type="Loop">
+<!--ADJUSTMENT DETAILS-->
+<AJT type="Segment">
+<!--ADJUSTMENT REASON, CODED-->
+<_4465><!--Agreed settlement-->1</_4465>
+</AJT>
+</AJTLoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Calculation net-->AAA</_5125>
+<!--Price-->
+<_5118>15.99</_5118>
+</C509>
+</PRI>
+</PRILoop1>
+<SCCLoop2 type="Loop">
+<!--SCHEDULING CONDITIONS-->
+<SCC type="Segment">
+<!--DELIVERY PLAN STATUS INDICATOR, CODED-->
+<_4017><!--Firm-->1</_4017>
+</SCC>
+<QTYLoop4 type="Loop">
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Allocated quantity-->170</_6063>
+<!--Quantity-->
+<_6060>10</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+</QTYLoop4>
+</SCCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>2</_1082>
+<!--ACTION REQUEST/NOTIFICATION, CODED-->
+<_1229/>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>SKU002</_7140>
+<!--Item number type, coded-->
+<_7143><!--SKU (Stock keeping unit)-->SK</_7143>
+</C212>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>VEND002</_7140>
+<!--Item number type, coded-->
+<_7143><!--Vendor item number-->VN</_7143>
+</C212>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite" repeat="false">
+<!--Item number-->
+<_7140>UNIT</_7140>
+<!--Item number type, coded-->
+<_7143>UK</_7143>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+<!--ITEM CHARACTERISTIC, CODED-->
+<_7081/>
+<!--ITEM DESCRIPTION-->
+<C273 type="Composite">
+<!--Item description identification-->
+<_7009></_7009>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Item description-->
+<_7008>Cat Litter - Unscented 25lb</_7008>
+</C273>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Ordered quantity-->21</_6063>
+<!--Quantity-->
+<_6060>5</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>149.95</_5004>
+</C516>
+</MOA>
+<!--FREE TEXT-->
+<FTX type="Segment">
+<!--TEXT SUBJECT QUALIFIER-->
+<_4451><!--Mutually defined-->ZZZ</_4451>
+<!--TEXT FUNCTION, CODED-->
+<_4453/>
+<!--TEXT REFERENCE-->
+<C107 type="Composite">
+</C107>
+<!--TEXT LITERAL-->
+<C108 type="Composite">
+<!--Free text-->
+<_4440>Heavy Item</_4440>
+</C108>
+</FTX>
+<AJTLoop2 type="Loop">
+<!--ADJUSTMENT DETAILS-->
+<AJT type="Segment">
+<!--ADJUSTMENT REASON, CODED-->
+<_4465><!--Agreed settlement-->1</_4465>
+</AJT>
+</AJTLoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Calculation net-->AAA</_5125>
+<!--Price-->
+<_5118>29.99</_5118>
+</C509>
+</PRI>
+</PRILoop1>
+<SCCLoop2 type="Loop">
+<!--SCHEDULING CONDITIONS-->
+<SCC type="Segment">
+<!--DELIVERY PLAN STATUS INDICATOR, CODED-->
+<_4017><!--Firm-->1</_4017>
+</SCC>
+<QTYLoop4 type="Loop">
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Allocated quantity-->170</_6063>
+<!--Quantity-->
+<_6060>5</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+</QTYLoop4>
+</SCCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>3</_1082>
+<!--ACTION REQUEST/NOTIFICATION, CODED-->
+<_1229/>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>SKU003</_7140>
+<!--Item number type, coded-->
+<_7143><!--SKU (Stock keeping unit)-->SK</_7143>
+</C212>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>VEND003</_7140>
+<!--Item number type, coded-->
+<_7143><!--Vendor item number-->VN</_7143>
+</C212>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite" repeat="false">
+<!--Item number-->
+<_7140>UNIT</_7140>
+<!--Item number type, coded-->
+<_7143>UK</_7143>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+<!--ITEM CHARACTERISTIC, CODED-->
+<_7081/>
+<!--ITEM DESCRIPTION-->
+<C273 type="Composite">
+<!--Item description identification-->
+<_7009></_7009>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Item description-->
+<_7008>Dog Treats - Peanut Butter 12oz</_7008>
+</C273>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Ordered quantity-->21</_6063>
+<!--Quantity-->
+<_6060>20</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>110.00</_5004>
+</C516>
+</MOA>
+<!--FREE TEXT-->
+<FTX type="Segment">
+<!--TEXT SUBJECT QUALIFIER-->
+<_4451><!--Mutually defined-->ZZZ</_4451>
+<!--TEXT FUNCTION, CODED-->
+<_4453/>
+<!--TEXT REFERENCE-->
+<C107 type="Composite">
+</C107>
+<!--TEXT LITERAL-->
+<C108 type="Composite">
+<!--Free text-->
+<_4440>Perishable</_4440>
+</C108>
+</FTX>
+<AJTLoop2 type="Loop">
+<!--ADJUSTMENT DETAILS-->
+<AJT type="Segment">
+<!--ADJUSTMENT REASON, CODED-->
+<_4465><!--Agreed settlement-->1</_4465>
+</AJT>
+</AJTLoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Calculation net-->AAA</_5125>
+<!--Price-->
+<_5118>5.50</_5118>
+</C509>
+</PRI>
+</PRILoop1>
+<SCCLoop2 type="Loop">
+<!--SCHEDULING CONDITIONS-->
+<SCC type="Segment">
+<!--DELIVERY PLAN STATUS INDICATOR, CODED-->
+<_4017><!--Firm-->1</_4017>
+</SCC>
+<QTYLoop4 type="Loop">
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Allocated quantity-->170</_6063>
+<!--Quantity-->
+<_6060>20</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+</QTYLoop4>
+</SCCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>4</_1082>
+<!--ACTION REQUEST/NOTIFICATION, CODED-->
+<_1229/>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>SKU004</_7140>
+<!--Item number type, coded-->
+<_7143><!--SKU (Stock keeping unit)-->SK</_7143>
+</C212>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>VEND004</_7140>
+<!--Item number type, coded-->
+<_7143><!--Vendor item number-->VN</_7143>
+</C212>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite" repeat="false">
+<!--Item number-->
+<_7140>UNIT</_7140>
+<!--Item number type, coded-->
+<_7143>UK</_7143>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+<!--ITEM CHARACTERISTIC, CODED-->
+<_7081/>
+<!--ITEM DESCRIPTION-->
+<C273 type="Composite">
+<!--Item description identification-->
+<_7009></_7009>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Item description-->
+<_7008>Cat Toy - Feather Wand</_7008>
+</C273>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Ordered quantity-->21</_6063>
+<!--Quantity-->
+<_6060>15</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>180.00</_5004>
+</C516>
+</MOA>
+<!--FREE TEXT-->
+<FTX type="Segment">
+<!--TEXT SUBJECT QUALIFIER-->
+<_4451><!--Mutually defined-->ZZZ</_4451>
+<!--TEXT FUNCTION, CODED-->
+<_4453/>
+<!--TEXT REFERENCE-->
+<C107 type="Composite">
+</C107>
+<!--TEXT LITERAL-->
+<C108 type="Composite">
+<!--Free text-->
+<_4440>Small Package</_4440>
+</C108>
+</FTX>
+<AJTLoop2 type="Loop">
+<!--ADJUSTMENT DETAILS-->
+<AJT type="Segment">
+<!--ADJUSTMENT REASON, CODED-->
+<_4465><!--Agreed settlement-->1</_4465>
+</AJT>
+</AJTLoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Calculation net-->AAA</_5125>
+<!--Price-->
+<_5118>12.00</_5118>
+</C509>
+</PRI>
+</PRILoop1>
+<SCCLoop2 type="Loop">
+<!--SCHEDULING CONDITIONS-->
+<SCC type="Segment">
+<!--DELIVERY PLAN STATUS INDICATOR, CODED-->
+<_4017><!--Firm-->1</_4017>
+</SCC>
+<QTYLoop4 type="Loop">
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Allocated quantity-->170</_6063>
+<!--Quantity-->
+<_6060>15</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+</QTYLoop4>
+</SCCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>5</_1082>
+<!--ACTION REQUEST/NOTIFICATION, CODED-->
+<_1229/>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>SKU005</_7140>
+<!--Item number type, coded-->
+<_7143><!--SKU (Stock keeping unit)-->SK</_7143>
+</C212>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>VEND005</_7140>
+<!--Item number type, coded-->
+<_7143><!--Vendor item number-->VN</_7143>
+</C212>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite" repeat="false">
+<!--Item number-->
+<_7140>UNIT</_7140>
+<!--Item number type, coded-->
+<_7143>UK</_7143>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+<!--ITEM CHARACTERISTIC, CODED-->
+<_7081/>
+<!--ITEM DESCRIPTION-->
+<C273 type="Composite">
+<!--Item description identification-->
+<_7009></_7009>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Item description-->
+<_7008>Dog Bed - Orthopedic Large</_7008>
+</C273>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Ordered quantity-->21</_6063>
+<!--Quantity-->
+<_6060>8</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>319.92</_5004>
+</C516>
+</MOA>
+<!--FREE TEXT-->
+<FTX type="Segment">
+<!--TEXT SUBJECT QUALIFIER-->
+<_4451><!--Mutually defined-->ZZZ</_4451>
+<!--TEXT FUNCTION, CODED-->
+<_4453/>
+<!--TEXT REFERENCE-->
+<C107 type="Composite">
+</C107>
+<!--TEXT LITERAL-->
+<C108 type="Composite">
+<!--Free text-->
+<_4440>Fragile</_4440>
+</C108>
+</FTX>
+<AJTLoop2 type="Loop">
+<!--ADJUSTMENT DETAILS-->
+<AJT type="Segment">
+<!--ADJUSTMENT REASON, CODED-->
+<_4465><!--Agreed settlement-->1</_4465>
+</AJT>
+</AJTLoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Calculation net-->AAA</_5125>
+<!--Price-->
+<_5118>39.99</_5118>
+</C509>
+</PRI>
+</PRILoop1>
+<SCCLoop2 type="Loop">
+<!--SCHEDULING CONDITIONS-->
+<SCC type="Segment">
+<!--DELIVERY PLAN STATUS INDICATOR, CODED-->
+<_4017><!--Firm-->1</_4017>
+</SCC>
+<QTYLoop4 type="Loop">
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Allocated quantity-->170</_6063>
+<!--Quantity-->
+<_6060>8</_6060>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Reference date/time-->171</_2005>
+<!--Date/time/period-->
+<_2380>20251120</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+</QTYLoop4>
+</SCCLoop2>
+</LINLoop1>
+<UNS type="Segment">
+<!--SECTION IDENTIFICATION-->
+<_0081><!--Detail/summary section separation-->S</_0081>
+</UNS>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Total line items amount-->79</_5025>
+<!--Monetary amount-->
+<_5004>919.77</_5004>
+</C516>
+</MOA>
+<!--CONTROL TOTAL-->
+<CNT type="Segment">
+<!--CONTROL-->
+<C270 type="Composite">
+<!--Control qualifier-->
+<_6069><!--Number of line items in message-->2</_6069>
+<!--Control value-->
+<_6066>5</_6066>
+</C270>
+</CNT>
+</TX-D97A-ORDRSP>
+</TransactionSet>
+</Interchange>
