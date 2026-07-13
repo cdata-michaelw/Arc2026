@@ -1,0 +1,100 @@
+<Items>
+	<request>
+		<invoice_row>
+			<customer_organization_no>C000943</customer_organization_no>
+			<customer_organization_id>376</customer_organization_id>
+			<name>Bos Marine Services B.V.</name>
+			<coc_number>56617461</coc_number>
+			<human_kind>besloten vennootschap met beperkte aansprakelijkheid</human_kind>
+			<address>Haven 50</address>
+			<postal_code>9976VN</postal_code>
+			<city>LAUWERSOOG</city>
+			<country_code>NL</country_code>
+			<general_email>info@lauwersoog.nl</general_email>
+			<invoice_email>facturen@lauwersoog.nl</invoice_email>
+			<bank_account_number></bank_account_number>
+			<general_phone_number>0519349133</general_phone_number>
+			<contact_person_phone>0615088940</contact_person_phone>
+			<current_outstanding_eur>19072,23</current_outstanding_eur>
+			<human_customer_segment>Key Account</human_customer_segment>
+			<human_sales_team>Workboats &amp; Maritime Equipment</human_sales_team>
+			<monthly_collection_limit_eur>1261,6</monthly_collection_limit_eur>
+			<token>Fn4hZGVGgRSZv2AppkfKHbRz</token>
+			<twikey_sign_url></twikey_sign_url>
+			<one_obligor_outstanding_debtor_category>Worker</one_obligor_outstanding_debtor_category>
+			<mail2pay_workflow>normal</mail2pay_workflow>
+			<one_obligor_payment_score>1</one_obligor_payment_score>
+			<current_days_past_due>0</current_days_past_due>
+			<is_currently_stage_3>FALSE</is_currently_stage_3>
+			<is_currently_stage_3_cure_period></is_currently_stage_3_cure_period>
+			<reference>BQ0171</reference>
+			<one_obligor_days_since_last_invoice_past_due></one_obligor_days_since_last_invoice_past_due>
+			<contact_person_name>directie</contact_person_name>
+			<dbt_created_at>46057,17322</dbt_created_at>
+			<Invoice_No.>VF670855</Invoice_No.>
+			<Posting_Date>06-02-26</Posting_Date>
+			<Due_Date>06-02-26</Due_Date>
+			<Currency_Sign>€</Currency_Sign>
+			<Amount__LCY_>1.261,60</Amount__LCY_>
+			<Remaining_Amount__LCY_>1.261,60</Remaining_Amount__LCY_>
+			<Amount>1.261,60</Amount>
+			<Remaining_Amount>1.261,60</Remaining_Amount>
+			<Storno_Code></Storno_Code>
+			<Storno_Description></Storno_Description>
+			<Invoice_filename>VF670855.pdf</Invoice_filename>
+			<Factuuromschrijving>Leasetermijn - EQ304463</Factuuromschrijving>
+			<Machtigingskenmerk>BEEQUB2B78</Machtigingskenmerk>
+			<Valutacode>EUR</Valutacode>
+			<Taalcode>NLD</Taalcode>
+			<Betaalmethode>DD</Betaalmethode>
+		</invoice_row>
+		<invoice_row>
+			<customer_organization_no>C000943</customer_organization_no>
+			<customer_organization_id>376</customer_organization_id>
+			<name>Bos Marine Services B.V.</name>
+			<coc_number>56617461</coc_number>
+			<human_kind>besloten vennootschap met beperkte aansprakelijkheid</human_kind>
+			<address>Haven 50</address>
+			<postal_code>9976VN</postal_code>
+			<city>LAUWERSOOG</city>
+			<country_code>NL</country_code>
+			<general_email>info@lauwersoog.nl</general_email>
+			<invoice_email>facturen@lauwersoog.nl</invoice_email>
+			<bank_account_number></bank_account_number>
+			<general_phone_number>0519349133</general_phone_number>
+			<contact_person_phone>0615088940</contact_person_phone>
+			<current_outstanding_eur>19072,23</current_outstanding_eur>
+			<human_customer_segment>Key Account</human_customer_segment>
+			<human_sales_team>Workboats &amp; Maritime Equipment</human_sales_team>
+			<monthly_collection_limit_eur>1261,6</monthly_collection_limit_eur>
+			<token>Fn4hZGVGgRSZv2AppkfKHbRz</token>
+			<twikey_sign_url></twikey_sign_url>
+			<one_obligor_outstanding_debtor_category>Worker</one_obligor_outstanding_debtor_category>
+			<mail2pay_workflow>normal</mail2pay_workflow>
+			<one_obligor_payment_score>1</one_obligor_payment_score>
+			<current_days_past_due>0</current_days_past_due>
+			<is_currently_stage_3>FALSE</is_currently_stage_3>
+			<is_currently_stage_3_cure_period></is_currently_stage_3_cure_period>
+			<reference>BQ0171</reference>
+			<one_obligor_days_since_last_invoice_past_due></one_obligor_days_since_last_invoice_past_due>
+			<contact_person_name>directie</contact_person_name>
+			<dbt_created_at>46057,17322</dbt_created_at>
+			<Invoice_No.>VF680784</Invoice_No.>
+			<Posting_Date>06-03-26</Posting_Date>
+			<Due_Date>06-03-26</Due_Date>
+			<Currency_Sign>€</Currency_Sign>
+			<Amount__LCY_>1.261,60</Amount__LCY_>
+			<Remaining_Amount__LCY_>1.261,60</Remaining_Amount__LCY_>
+			<Amount>1.261,60</Amount>
+			<Remaining_Amount>1.261,60</Remaining_Amount>
+			<Storno_Code></Storno_Code>
+			<Storno_Description></Storno_Description>
+			<Invoice_filename>VF680784.pdf</Invoice_filename>
+			<Factuuromschrijving>Leasetermijn - EQ304463</Factuuromschrijving>
+			<Machtigingskenmerk>BEEQUB2B78</Machtigingskenmerk>
+			<Valutacode>EUR</Valutacode>
+			<Taalcode>NLD</Taalcode>
+			<Betaalmethode>DD</Betaalmethode>
+		</invoice_row>
+	</request>
+</Items>

@@ -1,0 +1,31 @@
+<arc:set attr="httpItem.url" value="http://localhost:8001/api.rsc/certificates" />
+<arc:set attr="httpItem.user" value="michaelw" />
+<arc:set attr="httpItem.password" value="michaelw:9z5R1a7g9A5w8w2N6f8j" />
+
+<arc:call op="httpGet" in="httpItem" out="httpRes">
+  <arc:set attr="jsonItem.text" value="[httpRes.http:content]" />
+  <arc:set attr="jsonItem.jsonpath" value="/json/value/" />
+ 
+  <arc:call op="jsonDOMSearch" in="jsonItem" out="cert">
+    <arc:set attr="certDate" value="[jsonpath('ExpirationDate')]" />
+    <arc:if attr="certDate" operator="equals" value="">
+      <arc:set attr="output.filename" value="Empty.txt"/>
+      <arc:push item="output"/>
+    </arc:if>
+   
+    <arc:set attr="certResource" value="[jsonpath('AssociatedResource')]" />
+    <arc:set attr="certName" value="[jsonpath('Name')]" />
+    <arc:set attr="certId" value="[jsonpath('Id')]" />
+   
+    <arc:set attr="dateCutoff" value="[now() | dateadd('day', 100000)]" />
+    <!--arc:set attr="output.filename" value="Test.txt"/>
+    <arc:set attr="output.header:certDate" value="[certDate]" />
+    <arc:push item="output"/-->
+    <arc:if attr="certDate" operator="lessthan" value="[dateCutoff]">
+      <arc:if attr="certResource" operator="equals" value="">
+        <arc:set attr="_log.info" value="DRY RUN - Ready to delete: [certName]" />
+      </arc:if>
+    </arc:if>
+   
+  </arc:call>
+</arc:call> 
