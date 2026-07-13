@@ -1,0 +1,1472 @@
+<Interchange Delimiters=":+.?*&apos;" xmlns="http://www.rssbus.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Meta>
+<UNB1 type="Composite">
+<UNB1.1>UNOC</UNB1.1>
+<UNB1.2>3</UNB1.2>
+</UNB1>
+<UNB2 type="Composite">
+<UNB2.1>O0013005499AUO-BHTC-PRD</UNB2.1>
+</UNB2>
+<UNB3 type="Composite">
+<UNB3.1>5013546288646</UNB3.1>
+</UNB3>
+<UNB4 type="Composite">
+<UNB4.1>260701</UNB4.1>
+<UNB4.2>1623</UNB4.2>
+</UNB4>
+<UNB5>00000041411330</UNB5>
+</Meta>
+<TransactionSet>
+<TX-D04A-DELFOR type="TransactionSet">
+<Meta>
+<UNH1>00000041411330</UNH1>
+<UNH2 type="Composite">
+<UNH2.1>DELFOR</UNH2.1>
+<UNH2.2>D</UNH2.2>
+<UNH2.3>04A</UNH2.3>
+<UNH2.4>UN</UNH2.4>
+<UNH2.5>GMI051</UNH2.5>
+</UNH2>
+</Meta>
+<BGM type="Segment">
+<BGM01 type="Composite">
+<BGM0101>241</BGM0101>
+<BGM0102></BGM0102>
+<BGM0103></BGM0103>
+<BGM0104>Delivery Schedule</BGM0104>
+</BGM01>
+<BGM02 type="Composite">
+<BGM0201>00000041411330</BGM0201>
+</BGM02>
+</BGM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>137</DTM0101>
+<DTM0102>20260701</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<NADLoop1 type="Loop">
+<NAD type="Segment">
+<NAD01>SE</NAD01>
+<NAD02 type="Composite">
+<NAD0201>0005000766</NAD0201>
+<NAD0202></NAD0202>
+<NAD0203>92</NAD0203>
+</NAD02>
+</NAD>
+</NADLoop1>
+<NADLoop1 type="Loop">
+<NAD type="Segment">
+<NAD01>BY</NAD01>
+<NAD02 type="Composite">
+<NAD0201>C011820</NAD0201>
+<NAD0202></NAD0202>
+<NAD0203>91</NAD0203>
+</NAD02>
+</NAD>
+<CTALoop1 type="Loop">
+<CTA type="Segment">
+<CTA01>IC</CTA01>
+<CTA02 type="Composite">
+<CTA0201>DRE</CTA0201>
+<CTA0202>Dominik Reimer</CTA0202>
+</CTA02>
+</CTA>
+</CTALoop1>
+</NADLoop1>
+<GEILoop1 type="Loop">
+<GEI type="Segment">
+<GEI01>3</GEI01>
+</GEI>
+<NADLoop2 type="Loop">
+<NAD type="Segment">
+<NAD01>ST</NAD01>
+<NAD02 type="Composite">
+<NAD0201>1398</NAD0201>
+<NAD0202></NAD0202>
+<NAD0203>92</NAD0203>
+</NAD02>
+</NAD>
+</NADLoop2>
+<LINLoop1 type="Loop">
+<LIN type="Segment">
+<LIN01/>
+<LIN02/>
+<LIN03 type="Composite">
+<LIN0301>24307815</LIN0301>
+<LIN0302>IN</LIN0302>
+</LIN03>
+</LIN>
+<LOC type="Segment">
+<LOC01>159</LOC01>
+<LOC02 type="Composite">
+<LOC0201>LBH1</LOC0201>
+<LOC0202></LOC0202>
+<LOC0203>92</LOC0203>
+</LOC02>
+</LOC>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>257</DTM0101>
+<DTM0102>20260601</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<RFFLoop4 type="Loop">
+<RFF type="Segment">
+<RFF01 type="Composite">
+<RFF0101>ON</RFF0101>
+<RFF0102>5500069127</RFF0102>
+<RFF0103>00010</RFF0103>
+</RFF01>
+</RFF>
+</RFFLoop4>
+<RFFLoop4 type="Loop">
+<RFF type="Segment">
+<RFF01 type="Composite">
+<RFF0101>AAN</RFF0101>
+<RFF0102>150</RFF0102>
+</RFF01>
+</RFF>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>171</DTM0101>
+<DTM0102>20260601</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</RFFLoop4>
+<RFFLoop4 type="Loop">
+<RFF type="Segment">
+<RFF01 type="Composite">
+<RFF0101>AIF</RFF0101>
+<RFF0102>149</RFF0102>
+</RFF01>
+</RFF>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>171</DTM0101>
+<DTM0102>20260522</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</RFFLoop4>
+<QTYLoop1 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>70</QTY0101>
+<QTY0102>150000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+</QTYLoop1>
+<QTYLoop1 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>48</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>50</DTM0101>
+<DTM0102>20260113</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<RFFLoop5 type="Loop">
+<RFF type="Segment">
+<RFF01 type="Composite">
+<RFF0101>AAK</RFF0101>
+<RFF0102>0020013134</RFF0102>
+</RFF01>
+</RFF>
+</RFFLoop5>
+</QTYLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260121</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260121</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260128</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260128</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260211</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260211</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260218</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260218</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260225</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260225</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260311</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260311</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260318</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260318</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260325</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260325</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260401</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260401</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260415</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260415</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260429</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260429</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260506</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260506</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260513</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260513</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260520</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260520</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260603</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260603</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>1</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260610</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260610</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260624</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260624</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260701</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260701</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260729</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260729</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260812</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260812</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260819</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260819</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260902</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260902</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260909</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260909</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260916</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260916</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20260930</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20260930</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20261007</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20261007</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20261021</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20261021</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20261028</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20261028</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20261111</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20261111</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20261118</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20261118</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20261202</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20261202</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20261216</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20261216</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20270113</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20270113</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20270127</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20270127</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20270217</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20270217</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20270328</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20270328</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20270414</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20270414</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20270505</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20270505</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20270526</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20270526</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+<SCCLoop1 type="Loop">
+<SCC type="Segment">
+<SCC01>4</SCC01>
+<SCC02/>
+<SCC03 type="Composite">
+<SCC0301>D</SCC0301>
+</SCC03>
+</SCC>
+<QTYLoop2 type="Loop">
+<QTY type="Segment">
+<QTY01 type="Composite">
+<QTY0101>113</QTY0101>
+<QTY0102>3000</QTY0102>
+<QTY0103>C62</QTY0103>
+</QTY01>
+</QTY>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>64</DTM0101>
+<DTM0102>20270616</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+<DTM type="Segment">
+<DTM01 type="Composite">
+<DTM0101>63</DTM0101>
+<DTM0102>20270616</DTM0102>
+<DTM0103>102</DTM0103>
+</DTM01>
+</DTM>
+</QTYLoop2>
+</SCCLoop1>
+</LINLoop1>
+</GEILoop1>
+</TX-D04A-DELFOR>
+</TransactionSet>
+</Interchange>

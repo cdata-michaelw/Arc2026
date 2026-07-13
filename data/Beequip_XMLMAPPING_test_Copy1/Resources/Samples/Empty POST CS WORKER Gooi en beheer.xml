@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+<settings>
+	<pick_up_date></pick_up_date>
+	<pick_up_date_delay></pick_up_date_delay>
+	<id_batch></id_batch>
+	<username></username>
+	<flow_datetime></flow_datetime>
+	<flow_id></flow_id>
+	<flow_step></flow_step>
+	<return_url></return_url>
+	<payment_respite></payment_respite>
+	<id_client></id_client>
+</settings>
+<debtors>
+		<personal_data>
+			<firstname></firstname>
+			<lastname></lastname>
+			<company_name></company_name>
+			<birth_date></birth_date>
+			<gender></gender>
+			<language></language>
+			<emailaddress1></emailaddress1>
+			<emailaddress2></emailaddress2>
+			<telephone1></telephone1>
+			<telephone2></telephone2>
+			<address_street></address_street>
+			<address_number></address_number>
+			<address_postcode></address_postcode>
+			<address_city></address_city>
+			<address_country></address_country>
+			<address_street2></address_street2>
+			<address_number2></address_number2>
+			<address_postcode2></address_postcode2>
+			<address_city2></address_city2>
+			<address_country2></address_country2>
+		</personal_data>
+		<outstanding_items>
+			<Delete>
+				<payment_reference></payment_reference>
+				<concerning></concerning>
+				<id_request_client></id_request_client>
+				<variable1></variable1>
+				<variable2></variable2>
+				<variable3></variable3>
+				<variable4></variable4>
+				<variable5></variable5>
+				<invoices>
+					<invoice>
+						<invoice_number></invoice_number>
+						<invoice_description></invoice_description>
+						<invoice_date></invoice_date>
+						<invoice_due_date></invoice_due_date>
+						<invoice_amount></invoice_amount>
+					</invoice>
+				</invoices>
+				</Delete>
+		</outstanding_items>
+</debtors>
+</Items>
